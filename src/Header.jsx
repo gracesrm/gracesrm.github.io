@@ -4,16 +4,23 @@ import Nav from 'react-bootstrap/Nav';
 
 
 const Navigation = () => {
+    const padding = { paddingLeft: "4em", paddingRight: "4em"};
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Ruimin Sun</Navbar.Brand>
+        <Navbar 
+            collapseOnSelect 
+            expand="lg" 
+            variant="dark" 
+            style={{backgroundColor: "#c00"}} 
+            className="py-1"
+        >
+            {/* <Navbar.Brand href="#home">Ruimin Sun</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ml-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/research">Research</Nav.Link>
-                <Nav.Link href="/teaching">Teaching</Nav.Link>
-                <Nav.Link href="https://gracesrm.github.io/paper/Ruimin-CV.pdf">Vita</Nav.Link>
+            <Nav className="mx-auto">
+                <Nav.Link href="/" style={padding}><b>Home</b></Nav.Link>
+                <Nav.Link href="/research" style={padding}><b>Research</b></Nav.Link>
+                <Nav.Link href="/teaching" style={padding}><b>Teaching</b></Nav.Link>
+                <Nav.Link href="https://gracesrm.github.io/paper/Ruimin-CV.pdf" style={padding}><b>Vita</b></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>
