@@ -5,11 +5,11 @@ import Container from 'react-bootstrap/Container';
 const Research = () => {
     return (
         <Container>
-            <Row id="publications"><h1>Publications</h1></Row>
+            <Row id="publications" className="justify-content-center"><h1>Publications</h1></Row>
             <Row>{publications()}</Row>
-            <Row id="patents"><h1>Patents</h1></Row>
+            <Row id="patents" className="justify-content-center"><h1>Patents</h1></Row>
             <Row>{patents()}</Row>
-            <Row id="talks"><h1>Talks</h1></Row>
+            <Row id="talks" className="justify-content-center"><h1>Talks</h1></Row>
             <Row>{talks()}</Row>
         </Container>
     );

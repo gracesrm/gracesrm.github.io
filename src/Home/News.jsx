@@ -5,7 +5,9 @@ import Row from 'react-bootstrap/Row';
 const News = () => {
     return (
         <Container id="news">
-            <Row><h2>News</h2></Row>
+            <Row className="justify-content-center">
+                <h2>News</h2>
+            </Row>
             <Row>
                 <ul>
                     <li>[May 2020] Our work on praise for defensive programing is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858">TDSC</a>. </li>
