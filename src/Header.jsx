@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import './App.css';
 
 
 const Navigation = () => {
@@ -9,9 +10,8 @@ const Navigation = () => {
         <Navbar 
             collapseOnSelect 
             expand="lg" 
-            variant="dark" 
-            style={{backgroundColor: "#c00"}} 
-            className="py-1"
+            variant="dark"
+            className="neu_bg_red py-1"
         >
             {/* <Navbar.Brand href="#home">Ruimin Sun</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

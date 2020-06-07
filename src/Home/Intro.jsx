@@ -18,7 +18,7 @@ const Intro = () => {
             </ParagraphContainer>
             <ParagraphContainer>
                 <Container className="text-left" style={{paddingTop: "1em"}}>
-                I'm a Postdoctoral Research Associate in the Khoury College of Computer Sciences, working with <a href="https://www.longlu.org/">Dr. Long Lu</a>. 
+                <b>Bio: </b>I'm a Postdoctoral Research Associate in the Khoury College of Computer Sciences, working with <a href="https://www.longlu.org/">Dr. Long Lu</a>. 
         My research aims at securing ubiquitous systems (desktop, mobile, IoT/CPS).
         My recent works include PLC protection, and proprietary AI protection on the edge devices.
 
@@ -36,7 +36,7 @@ const intro = () => (
         <Row>Khoury College of Computer Sciences</Row>
         <Row>Northeastern University</Row>
         <Row style={{paddingTop: "1.5em"}}/>
-        <Row><b>Email:</b> r.sun at northeastern dot edu <br/></Row>
+        <Row><b>Email: </b> r.sun at northeastern dot edu <br/></Row>
         {/* <Row><b>Campus Address:</b> 634 ISEC, 805 Columbus Ave</Row> */}
         <Row style={{paddingTop: "1em"}}/>
     </Container>

@@ -2,11 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import ParagraphContainer from '../ParagraphContainer';
+import '../App.css';
 
 const News = () => {
     return (
         <Container id="news">
-            <Row className="justify-content-center" style={{paddingTop: "1.5em"}}>
+            <Row className="justify-content-center row_padding_top">
                 <h3>News</h3>
             </Row>
             <ParagraphContainer>
