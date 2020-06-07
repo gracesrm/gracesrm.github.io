@@ -13,7 +13,7 @@ const Navigation = () => {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/research">Research</Nav.Link>
                 <Nav.Link href="/teaching">Teaching</Nav.Link>
-                <Nav.Link href="/vita">Vita</Nav.Link>
+                <Nav.Link href="https://gracesrm.github.io/paper/Ruimin-CV.pdf">Vita</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

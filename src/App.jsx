@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from './Header';
 import Body from './Body';
 import Home from './Home';
+import Research from './Research';
+import Teaching from './Teaching';
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,9 +19,8 @@ function App() {
         <Body>
           <Switch>
             <Route exact path="/"><Home/></Route>
-            <Route exact path="/research"><p>research</p></Route>
-            <Route exact path="/teaching"><p>teaching</p></Route>
-            <Route exact path="/vita"><p>vita</p></Route>
+            <Route exact path="/research"><Research/></Route>
+            <Route exact path="/teaching"><Teaching/></Route>
           </Switch>
         </Body>
       </Router>
