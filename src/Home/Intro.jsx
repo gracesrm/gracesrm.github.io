@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import profImage from '../Assets/profile-NEU.jpg';
+import ParagraphContainer from '../ParagraphContainer';
 
 
 const Intro = () => {
@@ -19,14 +20,14 @@ const Intro = () => {
                 <Col md={6} style={no_col_padding}>{introCard()}</Col>
                 
             </Row>
-            <Row style={{paddingRight: "6em", paddingLeft: "6em"}}>
+            <ParagraphContainer>
                 <br/>
                 <p>
                 I'm a Postdoctoral Research Associate in the Khoury College of Computer Sciences, working with <a href="https://www.longlu.org/">Dr. Long Lu</a>. 
         My research aims at securing ubiquitous systems (desktop, mobile, IoT/CPS).
         My recent works include PLC protection, and proprietary AI protection on the edge devices.
                 </p>
-            </Row>
+            </ParagraphContainer>
         </Container>
     )
 }
