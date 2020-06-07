@@ -30,7 +30,7 @@ const Intro = () => {
 
 const intro = () => (
     <Container>
-        <Row style={{paddingTop: "0.5em"}} className="h3">Ruimin Sun</Row>
+        <Row style={{paddingTop: "0.5em"}} className="h3">Ruimin Sun (孙睿敏)</Row>
         <Row className="h6"><em>Postdoctoral Research Associate</em></Row>
         <Row style={{paddingTop: "1.5em"}}/>
         <Row>Khoury College of Computer Sciences</Row>

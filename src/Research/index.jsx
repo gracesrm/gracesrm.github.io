@@ -11,28 +11,28 @@ const Research = () => {
             <Row 
                 id="publications" 
                 className="justify-content-center row_padding_top">
-                    <h3>Publications</h3>
+                <h3>Publications</h3>
             </Row>
             <Paragraph>{publications()}</Paragraph>
 
             <Row 
                 id="patents"
                 className="justify-content-center row_padding_top">
-                    <h3>Patents</h3>
+                <h3>Patents</h3>
             </Row>
             <Paragraph>{patents()}</Paragraph>
             
             <Row
                 id="talks"
                 className="justify-content-center row_padding_top">
-                    <h3>Talks</h3>
+                <h3>Talks</h3>
             </Row>
             <Paragraph>{talks()}</Paragraph>
             
             <Row 
                 id="poster" 
                 className="justify-content-center row_padding_top">
-                    <h3>Poster Presentations</h3>
+                <h3>Poster Presentations</h3>
             </Row>
             <Paragraph>{poster()}</Paragraph>
         </Container>
