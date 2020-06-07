@@ -9,7 +9,7 @@ const News = () => {
                 <h2>News</h2>
             </Row>
             <Row>
-                <ul>
+                <ul className="list-unstyled">
                     <li>[May 2020] Our work on praise for defensive programing is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858">TDSC</a>. </li>
                     <li>[Aug 2019] I'm excited to Join NEU as a Postdoctoral Research Associate. </li>
                     <li>[Jan 2019] I'm selected as Student Program Committee of  <a href="
