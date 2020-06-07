@@ -6,7 +6,7 @@ import ParagraphContainer from '../ParagraphContainer';
 const News = () => {
     return (
         <Container id="news">
-            <Row className="justify-content-center">
+            <Row className="justify-content-center" style={{paddingTop: "1.5em"}}>
                 <h3>News</h3>
             </Row>
             <ParagraphContainer>
