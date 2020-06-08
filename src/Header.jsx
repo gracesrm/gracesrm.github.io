@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
+import { NavLink } from 'react-router-dom';
 
 
 const Navigation = () => {
@@ -17,9 +18,9 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
-                <Nav.Link href="/" style={padding}><b>Home</b></Nav.Link>
-                <Nav.Link href="/research" style={padding}><b>Research</b></Nav.Link>
-                <Nav.Link href="/teaching" style={padding}><b>Teaching</b></Nav.Link>
+                <Nav.Link style={padding} as={NavLink} to="/"><b>Home</b></Nav.Link>
+                <Nav.Link style={padding} as={NavLink} to="/research"><b>Research</b></Nav.Link>
+                <Nav.Link style={padding} as={NavLink} to="/teaching"><b>Teaching</b></Nav.Link>
                 <Nav.Link href="https://gracesrm.github.io/paper/Ruimin-CV.pdf" style={padding}><b>Vita</b></Nav.Link>
             </Nav>
             </Navbar.Collapse>

@@ -14,13 +14,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="ruiminsun.com">
       <NavBar/>
         <Body>
           <Switch>
-            <Route exact path="/"><Home/></Route>
-            <Route exact path="/research"><Research/></Route>
-            <Route exact path="/teaching"><Teaching/></Route>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/research" component={Research}></Route>
+            <Route exact path="/teaching" component={Teaching}></Route>
           </Switch>
         </Body>
       </Router>
