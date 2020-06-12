@@ -30,7 +30,7 @@ const News = () => {
                     <li className="text-left">[2015]Chameleon story got published on <a href="http://www.alligator.org/news/campus/article_b28dc956-c31d-11e5-a1f9-03ae15b38446.html">Alligator</a>.</li>
                     <li className="text-left">[2015]Our paper "The Case for Unpredictability as Deception as OS Features" will appear in the August issue of <a href="https://www.usenix.org/blog/login-magazine-usenix-gets-makeover">;login</a>.</li>
                     <li className="text-left">[2015]I receive the <a href="http://www.ieee-security.org/grepsec/">GREPSEC II Travel Award</a>.</li>
-                    <li className="text-left">[2015]Our paper <span class="title">The Case for Less Predictable Operating System Behavior</span> is accepted by <a href="https://www.usenix.org/conference/hotos15">HotOS 2015</a>.</li><br/>
+                    <li className="text-left">[2015]Our paper <em>The Case for Less Predictable Operating System Behavior</em> is accepted by <a href="https://www.usenix.org/conference/hotos15">HotOS 2015</a>.</li><br/>
                 </ul>
             </ParagraphContainer>
         </Container>
