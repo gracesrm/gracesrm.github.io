@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Paragraph from '../ParagraphContainer';
-import '../App.css';
+import '../AppVanillaHtml.css';
 
 
 const Research = () => {
