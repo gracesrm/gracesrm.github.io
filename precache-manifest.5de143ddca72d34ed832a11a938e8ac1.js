@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7043164bb34815754c71464016942fa2",
+    "revision": "232e65fef2087045d88c1b62a52b6c1d",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6327f290917144919c94",
+    "revision": "fb54576f05869efc7d9f",
     "url": "/static/css/main.e8673cf8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.accdc12e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6327f290917144919c94",
-    "url": "/static/js/main.52d3cb29.chunk.js"
+    "revision": "fb54576f05869efc7d9f",
+    "url": "/static/js/main.703a965d.chunk.js"
   },
   {
     "revision": "e731ebcf83609e71b2bd",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile_s.73e6dd21.jpg"
   },
   {
-    "revision": "58947cdef20533d4750956f6c46d7581",
-    "url": "/static/media/ruimin-neu-cv.58947cde.pdf"
+    "revision": "9d5c39e62c2a7033feb6433fd0260261",
+    "url": "/static/media/ruimin-neu-cv.9d5c39e6.pdf"
   }
 ]);
