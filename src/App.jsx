@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router basename="ruiminsun.com">
+      <Router>
       <NavBar/>
         <Body>
           <Switch>
