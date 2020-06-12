@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 import { NavLink } from 'react-router-dom';
-import cv from './Assets/ruimin-neu-cv.pdf'
+import cv from './Downloads/CV/ruimin-neu-cv.pdf'
 
 
 const Navigation = () => {
