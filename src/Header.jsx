@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
 import { NavLink } from 'react-router-dom';
+import cv from './Assets/ruimin-neu-cv.pdf'
 
 
 const Navigation = () => {
@@ -21,7 +22,7 @@ const Navigation = () => {
                 <Nav.Link style={padding} as={NavLink} to="/"><b>Home</b></Nav.Link>
                 <Nav.Link style={padding} as={NavLink} to="/research"><b>Research</b></Nav.Link>
                 <Nav.Link style={padding} as={NavLink} to="/teaching"><b>Teaching</b></Nav.Link>
-                <Nav.Link href="https://gracesrm.github.io/paper/Ruimin-CV.pdf" style={padding}><b>Vita</b></Nav.Link>
+                <Nav.Link href={cv} style={padding}><b>Vita</b></Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -41,52 +41,99 @@ const Research = () => {
 
 
 const publications = () => (
-    <ul>
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Marcus Botacin, Nikolaos Sapountzis, Xiaoyong Yuan, Matt Bishop, Donald E Porter, 
-            Xiaolin Li, Andre Gregio, Daniela Oliveira. <b> A Praise for Defensive Programming - Leveraging Uncertainty 
-            for Effective Malware Mitigation.</b>TDSC, 2020. 
-            <a href="https://ieeexplore.ieee.org/abstract/document/9061034">[PDF]</a> 
-            <a href="/#">[Slides]</a>.
+    <ol reversed>
+        <li className="text-left li_padding_bottom">
+            <dt> A Praise for Defensive Programming - Leveraging Uncertainty for Effective Malware Mitigation.</dt>
+            <li><b>Ruimin Sun</b>, Marcus Botacin, Nikolaos Sapountzis, Xiaoyong Yuan, Matt Bishop, Donald E Porter, 
+            Xiaolin Li, Andre Gregio, Daniela Oliveira. </li>
+            <li><em>IEEE Transactions on Dependable and Secure Computing (TDSC), 2020. 
+            <a href="https://ieeexplore.ieee.org/abstract/document/9061034"> [PDF]</a></em></li>
         </li>
-        <li className="text-left li_padding_bottom">Nikolaos Sapountzis, <b>Ruimin Sun</b>, Xuetao Wei, Yier Jin, Jedidiah R. Crandall, Daniela Oliveira. <b> MITOS: Optimal Propagation Decisioning in Dynamic Information Flow Tracking.</b> ICDCS, 2020. <a href="">[PDF]</a></li>
-        <li className="text-left li_padding_bottom">Nikolaos Sapountzis, <b>Ruimin Sun</b>, Daniela Oliveira. <b>DDIFT: Decentralized Dynamic Information Flow Tracking for IoT Privacy and Security</b>. DISS, 2019. <a href="https://www.ndss-symposium.org/wp-content/uploads/diss2019_07_Sapountzis_paper.pdf">[PDF]</a> </li>
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Xiaoyong Yuan, Pan He, Qile Zhu, Aokun Chen, Andre Gregio, Daniela Oliveira, Xiaolin Li. <b> Learning Fast and Slow: PROPEDEUTICA for Real-time Malware Detection </b> <a href="paper/making-deep-learning.pdf">[PDF]</a> <a href="">[Slides]</a>. </li>
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Xiaoyong Yuan, Andrew Lee, Matt Bishop, Don Porter, Xiaolin Li, Andre Gregio and Daniela Oliveira. <b> The Dose Makes the Poision - Leveraging Uncertainty for Effective Malware Detection.</b> DSC 2017. Taipei, Taiwan, Aug. 7-10 2017. <a href="paper/DSC-no-copyright.pdf">[PDF]</a> <a href="">[Slides]</a></li> 
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Andrew Lee, Aokun Chen, Don Porter, Matt Bishop and Daniela Oliveira. <b>Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior.</b> ISSRE 2016. Ottawa, Canada, Oct. 23-27 2016. <a href="paper/issre-camera-ready.pdf">[PDF]</a> <a href="">[Slides]</a></li> 
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Don Porter, Daniela Oliveira and Matt Bishop. <b> The Case for Unpredictability as Deception as OS Features.</b> Usenix ;login, Aug 2015. (Invited Paper) <a href="paper/login_aug15_03_sun.pdf">[PDF]</a> <a href="">[Slides]</a></li>
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Don Porter, Daniela Oliveira and Matt Bishop. <b> The Case for Less Predictable Operating System Behavior.</b> 15th Workshop on Hot Topics in Operating Systems. Kartause Ittingen, Switzerland, May 18-20 2015. <a href="paper/hotos-final.pdf">[PDF]</a> <a href="">[Slides]</a></li>
-    </ul>
+        <li className="text-left li_padding_bottom">
+            <dt> MITOS: Optimal Propagation Decisioning in Dynamic Information Flow Tracking.</dt> 
+            <li>Nikolaos Sapountzis, <b>Ruimin Sun</b>, Xuetao Wei, Yier Jin, Jedidiah R. Crandall, Daniela Oliveira. </li>
+            <li><em>IEEE International Conference on Distributed Computing Systems (ICDCS), 2020. (to be appeared)</em></li>
+            Acceptance rate: 105/584 = 17.9%.
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt>DDIFT: Decentralized Dynamic Information Flow Tracking for IoT Privacy and Security.</dt>
+            <li>Nikolaos Sapountzis, <b>Ruimin Sun</b>, Daniela Oliveira. </li>
+            <li><em>NDSS Decentralized IoT Systems and Security Worshop (DISS), 2019. 
+            <a href="https://www.ndss-symposium.org/wp-content/uploads/diss2019_07_Sapountzis_paper.pdf"> [PDF]</a></em></li> 
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt> Learning Fast and Slow: PROPEDEUTICA for Real-time Malware Detection.</dt> 
+            <li><b>Ruimin Sun</b>, Xiaoyong Yuan, Pan He, Qile Zhu, Aokun Chen, Andre Gregio, Daniela Oliveira, Xiaolin Li. </li>
+            <li><em><a href="https://arxiv.org/pdf/1712.01145.pdf"> [PDF]</a> </em></li> 
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt> The Dose Makes the Poision - Leveraging Uncertainty for Effective Malware Detection.</dt> 
+            <li><b>Ruimin Sun</b>, Xiaoyong Yuan, Andrew Lee, Matt Bishop, Don Porter, Xiaolin Li, Andre Gregio and Daniela Oliveira.</li>
+            <li><em>IEEE Conference on Dependable and Secure Computing (DSC), 2017. 
+            <a href="https://ieeexplore.ieee.org/document/8073803"> [PDF]</a></em></li>
+        </li> 
+        <li className="text-left li_padding_bottom">
+            <dt>Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior.</dt> 
+            <li><b>Ruimin Sun</b>, Andrew Lee, Aokun Chen, Don Porter, Matt Bishop and Daniela Oliveira.</li>
+            <li><em>IEEE International Symposium on Software Reliability Engineering (ISSRE), 2016. 
+            <a href="https://ieeexplore.ieee.org/document/7774537"> [PDF]</a></em></li>
+        </li> 
+        <li className="text-left li_padding_bottom">
+            <dt> The Case for Unpredictability as Deception as OS Features.</dt> 
+            <li><b>Ruimin Sun</b>, Don Porter, Daniela Oliveira and Matt Bishop. </li>
+            <li><em>USENIX ;login, 2015.  
+            <a href="https://www.usenix.org/system/files/login/articles/login_aug15_03_sun.pdf"> [PDF]</a></em></li>
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt> The Case for Less Predictable Operating System Behavior.</dt> 
+            <li><b>Ruimin Sun</b>, Don Porter, Daniela Oliveira and Matt Bishop. </li>
+            <li><em>15th Workshop on Hot Topics in Operating Systems (HotOS), 2015.
+            <a href="https://www.usenix.org/system/files/conference/hotos15/hotos15-paper-sun.pdf"> [PDF]</a></em></li>
+        </li>
+    </ol>
 )
 
 
 const patents = () => (
-    <ul>
-        <li className="text-left li_padding_bottom"><b>Ruimin Sun</b>, Zhen Mo, Bin Zan, Vamsi Akkineni, Vijay Ganti. <b>An Unsupervised Event Driven Targeted Analysis Approach.</b> US Patent Application 16/242,396</li>            
-        <li className="text-left li_padding_bottom">Zhen Mo, Dexiang Wang, Bin Zan, Vijay Ganti, Amit Chopra, <b>Ruimin Sun</b>.  <b>A Holo-Entropy Based Alarm Scoring Approach.</b> US Patent Application 16/212,170</li>
-        <li className="text-left li_padding_bottom">David Ott, Lei Xu, <b>Ruimin Sun</b>, Vijay Ganti, Dannis Moreau. <b>Security Protection For A Host Computer In A Computer Network Using Cross-Domain Security-Relevant Information Sharing.</b> US Patent Application 16/255,551</li>
-    </ul>
+    <ol >
+        <li className="text-left li_padding_bottom">
+            <dt>An Unsupervised Event Driven Targeted Analysis Approach.</dt>
+            <li><b>Ruimin Sun</b>, Zhen Mo, Bin Zan, Vamsi Akkineni, Vijay Ganti. </li>
+            <li><em>US Patent Application 16/242,396 </em></li>
+        </li>            
+        <li className="text-left li_padding_bottom">
+            <dt>A Holo-Entropy Based Alarm Scoring Approach.</dt> 
+            <li>Zhen Mo, Dexiang Wang, Bin Zan, Vijay Ganti, Amit Chopra, <b>Ruimin Sun</b>. </li> 
+            <li><em>US Patent Application 16/212,170</em></li>
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt>Security Protection For A Host Computer In A Computer Network Using Cross-Domain Security-Relevant Information Sharing.</dt>
+            <li>David Ott, Lei Xu, <b>Ruimin Sun</b>, Vijay Ganti, Dannis Moreau. </li>
+            <li><em>US Patent Application 16/255,551</em></li>
+        </li>
+    </ol>
 )
 
 
 const talks = () => (
-    <ul>
+    <ol>
         <li className="text-left">Sherlock: An AI-based Event-driven System Behavior Diagnosing Approach, VMware, 2018</li>
         <li className="text-left">Leveraging Unpredictabilities for Real-time Malware Mitigation, Miami University, Ohio, 2018</li>
         <li className="text-left">How Diverse OS can Improve Software Reliability towards OS (Mis)Behavior, Beihang University, China, 2017</li>
         <li className="text-left">The Dose Makes the Poison - Leveraging Uncertainty for Effective Malware Detection, DSC 2017</li>
         <li className="text-left">Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior, ISSRE 2016</li>
         <li className="text-left">The Case for Less Predictable Operating System Behavior, HotOS 2015</li>
-    </ul>
+    </ol>
 )
 
 const poster = () => (
-    <ul>
+    <ol>
         <li className="text-left">Learning Fast and Slow: Propedeutica for Real-time Malware Detection, FICS Conf. 2018</li>
         <li className="text-left">Adversarial Voice Commands (AdVoice) in the Physical World, FICS Conf. 2018</li>
         <li className="text-left">Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior, FICS Conf. 2017 </li>
         <li className="text-left">DeepMalware: Deep Models and Mechanisms for Malware Detection, NSF-CBL 2017, FICS Conf. 2017</li>
         <li className="text-left">The Case for Less Predictable Operating System Behavior, FICS Conf. 2016</li>
-    </ul>
+    </ol>
 )
 
 export default Research;

@@ -13,3 +13,29 @@
 .row_padding_top {
   padding-top: 1.5em;
 }
+
+/* Start numbered listed with square brackets */
+ol {
+  list-style-type: none;
+  list-style: decimal-leading-zero;
+  counter-reset:list;
+}
+
+ol > li {
+  list-style: none;
+  position: relative;
+}
+
+ol > li:before {
+  content: "["counter(list) "].";
+  counter-increment: list;
+  position: absolute;
+  left: -30px;
+}
+/* End numbered listed with square brackets */
+
+/* to highlight best paper award*/
+/* hl_w_red{
+  background-color:red;
+  font-style: italic;
+} */
