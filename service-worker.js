@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ruiminsun.com/precache-manifest.89c11e8f4c81aec21f6534d65982f496.js"
+  "/ruiminsun.com/precache-manifest.116c6e102f72bf194e1a9cf3eb316322.js"
 );
 
 self.addEventListener('message', (event) => {

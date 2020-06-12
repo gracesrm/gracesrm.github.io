@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/ruiminsun.com/static/css/main.04c26fb2.chunk.css",
-    "main.js": "/ruiminsun.com/static/js/main.a686e2ad.chunk.js",
-    "main.js.map": "/ruiminsun.com/static/js/main.a686e2ad.chunk.js.map",
+    "main.css": "/ruiminsun.com/static/css/main.e8673cf8.chunk.css",
+    "main.js": "/ruiminsun.com/static/js/main.964f4958.chunk.js",
+    "main.js.map": "/ruiminsun.com/static/js/main.964f4958.chunk.js.map",
     "runtime-main.js": "/ruiminsun.com/static/js/runtime-main.20925915.js",
     "runtime-main.js.map": "/ruiminsun.com/static/js/runtime-main.20925915.js.map",
     "static/css/2.af3c1da9.chunk.css": "/ruiminsun.com/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.3f44fd48.chunk.js": "/ruiminsun.com/static/js/2.3f44fd48.chunk.js",
-    "static/js/2.3f44fd48.chunk.js.map": "/ruiminsun.com/static/js/2.3f44fd48.chunk.js.map",
+    "static/js/2.accdc12e.chunk.js": "/ruiminsun.com/static/js/2.accdc12e.chunk.js",
+    "static/js/2.accdc12e.chunk.js.map": "/ruiminsun.com/static/js/2.accdc12e.chunk.js.map",
     "index.html": "/ruiminsun.com/index.html",
-    "precache-manifest.89c11e8f4c81aec21f6534d65982f496.js": "/ruiminsun.com/precache-manifest.89c11e8f4c81aec21f6534d65982f496.js",
+    "precache-manifest.116c6e102f72bf194e1a9cf3eb316322.js": "/ruiminsun.com/precache-manifest.116c6e102f72bf194e1a9cf3eb316322.js",
     "service-worker.js": "/ruiminsun.com/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/ruiminsun.com/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.04c26fb2.chunk.css.map": "/ruiminsun.com/static/css/main.04c26fb2.chunk.css.map",
-    "static/js/2.3f44fd48.chunk.js.LICENSE.txt": "/ruiminsun.com/static/js/2.3f44fd48.chunk.js.LICENSE.txt",
-    "static/media/profile_s.jpg": "/ruiminsun.com/static/media/profile_s.73e6dd21.jpg"
+    "static/css/main.e8673cf8.chunk.css.map": "/ruiminsun.com/static/css/main.e8673cf8.chunk.css.map",
+    "static/js/2.accdc12e.chunk.js.LICENSE.txt": "/ruiminsun.com/static/js/2.accdc12e.chunk.js.LICENSE.txt",
+    "static/media/profile_s.jpg": "/ruiminsun.com/static/media/profile_s.73e6dd21.jpg",
+    "static/media/ruimin-neu-cv.pdf": "/ruiminsun.com/static/media/ruimin-neu-cv.58947cde.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.20925915.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.3f44fd48.chunk.js",
-    "static/css/main.04c26fb2.chunk.css",
-    "static/js/main.a686e2ad.chunk.js"
+    "static/js/2.accdc12e.chunk.js",
+    "static/css/main.e8673cf8.chunk.css",
+    "static/js/main.964f4958.chunk.js"
   ]
 }
