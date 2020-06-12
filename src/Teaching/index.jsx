@@ -16,9 +16,9 @@ const Teaching = () => (
             <ol>
                 <li className="text-left">
                     <dt>Cross-Layer Computer Security (EEL4930/EEL5934)</dt>
-                    <li><b>Guest Lecturer</b>: 2015, 2016, 2017, 2018, 2019</li>
+                    <div><b>Guest Lecturer</b>: 2015, 2016, 2017, 2018, 2019</div>
                     {/* <dd>Supervised Teaching: 2015, 2016 </dd> */}
-                    <li>Assisted syllabus and exams: 2015, 2016</li>
+                    <div>Assisted syllabus and exams: 2015, 2016</div>
                     {/* <dd><a href="https://www.ece.ufl.edu/wp-content/uploads/syllabi/Spring2017/EEL5934_Cross_Layer_Sec_Spring_2017.pdf">Syllabus</a></dd> */}
                 </li>
                 
