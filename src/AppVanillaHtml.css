@@ -11,7 +11,7 @@ ol > li {
 }
 
 ol > li:before {
-    content: "["counter(list) "].";
+    content: "["counter(list) "] ";
     counter-increment: list;
     position: absolute;
     left: -30px;

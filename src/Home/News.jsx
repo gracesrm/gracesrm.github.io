@@ -12,7 +12,9 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul>
+                    <li className="text-left">[June 2020] Our work on Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps is presented at webinar of Future of Privacy Forum <a href="https://fpf.org/">(FPF)</a>. </li>
                     <li className="text-left">[May 2020] Our work on praise for defensive programing is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858">TDSC</a>. </li>
+                    <li className="text-left">[May 2020] Our work on MITOS: Optimal Decisioning for the Indirect Flow Propagation Dilemma in Dynamic Information Flow Tracking is accepted by <a href="https://icdcs2020.sg/">ICDCS</a>. </li>
                     <li className="text-left">[Aug 2019] I'm excited to Join NEU as a Postdoctoral Research Associate. </li>
                     <li className="text-left">[Jan 2019] I'm selected as Student Program Committee of  <a href="
                         https://www.ieee-security.org/TC/SP2019/">S&P 2019</a>. </li>

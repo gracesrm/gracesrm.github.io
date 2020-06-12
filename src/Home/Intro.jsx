@@ -36,7 +36,7 @@ const intro = () => (
         <Row>Khoury College of Computer Sciences</Row>
         <Row>Northeastern University</Row>
         <Row style={{paddingTop: "1.5em"}}/>
-        <Row><b>Email: </b> r.sun at northeastern dot edu <br/></Row>
+        <Row><b>Email:</b> r.sun@northeastern.edu <br/></Row>
         {/* <Row><b>Campus Address:</b> 634 ISEC, 805 Columbus Ave</Row> */}
         <Row style={{paddingTop: "1em"}}/>
     </Container>
