@@ -23,3 +23,8 @@ ol > li:before {
     background-color:red;
     font-style: italic;
 } */
+
+a:any-link {
+    /* color: rgb(9, 131, 231); */
+    font-weight: bold;
+}
