@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe273c257a927bd1dc130bc843867536",
+    "revision": "f5ed5714d8ac75358340177143d48bc2",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "1f89ae9de3fffc2296ed",
-    "url": "/static/css/main.d5c469ed.chunk.css"
+    "revision": "7fc3b10e72559a443513",
+    "url": "/static/css/main.d4a7e1e8.chunk.css"
   },
   {
     "revision": "ddfc0f18b88a51503b7d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0f75e179.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f89ae9de3fffc2296ed",
-    "url": "/static/js/main.67e45389.chunk.js"
+    "revision": "7fc3b10e72559a443513",
+    "url": "/static/js/main.52dc03ed.chunk.js"
   },
   {
     "revision": "e731ebcf83609e71b2bd",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/propedeutica_2018.b1e8f52e.pdf"
   },
   {
-    "revision": "016897ea87676f576cb2d52939214593",
-    "url": "/static/media/ruimin-neu-cv.016897ea.pdf"
+    "revision": "bba5ec65e2cb48cc788dfe3c10956c2d",
+    "url": "/static/media/ruimin-neu-cv.bba5ec65.pdf"
   },
   {
     "revision": "41eb00631da02e9f0e7641974b9b2149",
