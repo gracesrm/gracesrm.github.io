@@ -51,8 +51,9 @@ const publications = () => (
         </li>
         <li className="text-left li_padding_bottom">
             <dt> Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps.</dt>
-            <div>Zhichuang Sun, <b>Ruimin Sun</b>, Long Lu. </div>
-            <div><em>Arxiv Preprint arXiv:2002.07687, 2020. 
+            <div>Zhichuang Sun, <b>Ruimin Sun</b>, Long Lu, Alan Mislove. </div>
+            <div><em>USENIX Security'21.
+ 
             <a href={require("../Downloads/paper/modelxray_preprint.pdf")}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
