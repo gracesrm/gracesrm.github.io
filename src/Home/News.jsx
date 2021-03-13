@@ -1,23 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Collapse from 'react-bootstrap/Collapse';
 import ParagraphContainer from '../ParagraphContainer';
 import '../App.css';
 
+
 const News = () => {
+    const [showText, setShowText] = useState(false);
+
     return (
         <Container id="news">
             <Row className="justify-content-center row_padding_top">
                 <h3>News</h3>
             </Row>
             <ParagraphContainer>
-                <ul>
+                <ul className='ul_margin_bottom'>
                     <li className="text-left">[June 2020] Our work on Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps is presented at webinar of Future of Privacy Forum <a href="https://fpf.org/">(FPF)</a>. </li>
                     <li className="text-left">[May 2020] Our work on praise for defensive programing is accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858">TDSC</a>. </li>
                     <li className="text-left">[May 2020] Our work on MITOS: Optimal Decisioning for the Indirect Flow Propagation Dilemma in Dynamic Information Flow Tracking is accepted by <a href="https://icdcs2020.sg/">ICDCS</a>. </li>
                     <li className="text-left">[Aug 2019] I'm excited to Join NEU as a Postdoctoral Research Associate. </li>
                     <li className="text-left">[Jan 2019] I'm selected as Student Program Committee of  <a href="
                         https://www.ieee-security.org/TC/SP2019/">S&P 2019</a>. </li>
+                </ul>
+                <Collapse in={!showText}>
+                    <div onClick={() => setShowText(!showText)} style={{'margin_bottom': '5em'}}>--- See more ---</div>
+                </Collapse>
+                <Collapse in={showText}>
+                <ul>
                     <li className="text-left">[Aug 2018] I'm invited as Program Committee of <a href="http://2018.issre.net/">ISSRE 2018</a> Fast Abstract Track. </li>
                     <li className="text-left">[Aug 2018] I give my talk Sherlock: An AI-based Event-driven System Behavior Diagnosing Approach at VMware </li>
                     <li className="text-left">[May 2018] I'll start my internship researching on malware detection with AI at <a href="https://www.vmware.com/products/appdefense.html">VMware</a>. </li>
@@ -34,6 +44,10 @@ const News = () => {
                     <li className="text-left">[2015]I receive the <a href="http://www.ieee-security.org/grepsec/">GREPSEC II Travel Award</a>.</li>
                     <li className="text-left">[2015]Our paper <em>The Case for Less Predictable Operating System Behavior</em> is accepted by <a href="https://www.usenix.org/conference/hotos15">HotOS 2015</a>.</li><br/>
                 </ul>
+                </Collapse>
+                <Collapse in={showText}>
+                    <div onClick={() => setShowText(!showText)} style={{'margin_bottom': '5em'}}> --- See Less ---</div>
+                </Collapse>
             </ParagraphContainer>
         </Container>
     );

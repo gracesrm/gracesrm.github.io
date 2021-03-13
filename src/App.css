@@ -10,6 +10,10 @@
   padding-bottom: 0.5em;
 }
 
+.ul_margin_bottom {
+  margin-bottom: 0;
+}
+
 .row_padding_top {
   padding-top: 1.5em;
 }
