@@ -46,7 +46,7 @@ const publications = () => (
         <li className="text-left li_padding_bottom">
             <dt> SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses.</dt>
             <div><b>Ruimin Sun</b>, Alejandro Mera, Long Lu, David Choffnes. </div>
-            <div><em>Arxiv Preprint arXiv:2006.04806, 2020. 
+            <div><em>EuroS&P'21. 
             <a href={require("../Downloads/paper/sok_preprint.pdf")}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
