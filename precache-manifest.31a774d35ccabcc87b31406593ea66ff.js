@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5ed5714d8ac75358340177143d48bc2",
+    "revision": "1ff2747ad6d07d0a3b566032df8a5bc9",
     "url": "/index.html"
   },
   {
-    "revision": "ddfc0f18b88a51503b7d",
+    "revision": "04b8101303f5c7c5ab25",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "7fc3b10e72559a443513",
-    "url": "/static/css/main.d4a7e1e8.chunk.css"
+    "revision": "e328427b99e1f9d7fb08",
+    "url": "/static/css/main.914eb867.chunk.css"
   },
   {
-    "revision": "ddfc0f18b88a51503b7d",
-    "url": "/static/js/2.0f75e179.chunk.js"
+    "revision": "04b8101303f5c7c5ab25",
+    "url": "/static/js/2.8530be3d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.0f75e179.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8530be3d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7fc3b10e72559a443513",
-    "url": "/static/js/main.52dc03ed.chunk.js"
+    "revision": "e328427b99e1f9d7fb08",
+    "url": "/static/js/main.f84999b1.chunk.js"
   },
   {
     "revision": "e731ebcf83609e71b2bd",
@@ -64,12 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/propedeutica_2018.b1e8f52e.pdf"
   },
   {
-    "revision": "bba5ec65e2cb48cc788dfe3c10956c2d",
-    "url": "/static/media/ruimin-neu-cv.bba5ec65.pdf"
+    "revision": "5834f154e8e312875f450915c6dcc52e",
+    "url": "/static/media/ruimin-neu-cv.5834f154.pdf"
   },
   {
-    "revision": "41eb00631da02e9f0e7641974b9b2149",
-    "url": "/static/media/sok_preprint.41eb0063.pdf"
+    "revision": "185e0b686377fd18dce80aec2e479291",
+    "url": "/static/media/sok_preprint.185e0b68.pdf"
   },
   {
     "revision": "10dc1f0e9b2cfa4d3f2cfd818a067620",
