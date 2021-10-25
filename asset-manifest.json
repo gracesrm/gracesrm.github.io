@@ -1,37 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.914eb867.chunk.css",
-    "main.js": "/static/js/main.f84999b1.chunk.js",
-    "main.js.map": "/static/js/main.f84999b1.chunk.js.map",
+    "main.js": "/static/js/main.ad5604a4.chunk.js",
+    "main.js.map": "/static/js/main.ad5604a4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9aeaae99.js",
     "runtime-main.js.map": "/static/js/runtime-main.9aeaae99.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8530be3d.chunk.js": "/static/js/2.8530be3d.chunk.js",
-    "static/js/2.8530be3d.chunk.js.map": "/static/js/2.8530be3d.chunk.js.map",
+    "static/js/2.4d70d356.chunk.js": "/static/js/2.4d70d356.chunk.js",
+    "static/js/2.4d70d356.chunk.js.map": "/static/js/2.4d70d356.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.31a774d35ccabcc87b31406593ea66ff.js": "/precache-manifest.31a774d35ccabcc87b31406593ea66ff.js",
+    "precache-manifest.cfc8a2d79f2035833ca5d6d7782f0d15.js": "/precache-manifest.cfc8a2d79f2035833ca5d6d7782f0d15.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.914eb867.chunk.css.map": "/static/css/main.914eb867.chunk.css.map",
-    "static/js/2.8530be3d.chunk.js.LICENSE.txt": "/static/js/2.8530be3d.chunk.js.LICENSE.txt",
-    "static/media/ddift_2019.pdf": "/static/media/ddift_2019.1f482dd2.pdf",
-    "static/media/dsc_2017.pdf": "/static/media/dsc_2017.62f9b2b0.pdf",
-    "static/media/hotos_2015.pdf": "/static/media/hotos_2015.6ef7317a.pdf",
-    "static/media/icdcs_2020.pdf": "/static/media/icdcs_2020.c7c99cac.pdf",
-    "static/media/issre_2016.pdf": "/static/media/issre_2016.915c45a6.pdf",
-    "static/media/login_2015.pdf": "/static/media/login_2015.6898fa69.pdf",
-    "static/media/modelxray_preprint.pdf": "/static/media/modelxray_preprint.72c763e3.pdf",
+    "static/js/2.4d70d356.chunk.js.LICENSE.txt": "/static/js/2.4d70d356.chunk.js.LICENSE.txt",
     "static/media/profile_s.jpg": "/static/media/profile_s.73e6dd21.jpg",
     "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.b1e8f52e.pdf",
-    "static/media/ruimin-neu-cv.pdf": "/static/media/ruimin-neu-cv.5834f154.pdf",
-    "static/media/sok_preprint.pdf": "/static/media/sok_preprint.185e0b68.pdf",
-    "static/media/tdsc_2020.pdf": "/static/media/tdsc_2020.10dc1f0e.pdf"
+    "static/media/ruimin-neu-cv.pdf": "/static/media/ruimin-neu-cv.a4681633.pdf",
+    "static/media/sok_preprint.pdf": "/static/media/sok_preprint.185e0b68.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.9aeaae99.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.8530be3d.chunk.js",
+    "static/js/2.4d70d356.chunk.js",
     "static/css/main.914eb867.chunk.css",
-    "static/js/main.f84999b1.chunk.js"
+    "static/js/main.ad5604a4.chunk.js"
   ]
 }
