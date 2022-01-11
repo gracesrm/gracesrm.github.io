@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.914eb867.chunk.css",
-    "main.js": "/static/js/main.ad5604a4.chunk.js",
-    "main.js.map": "/static/js/main.ad5604a4.chunk.js.map",
+    "main.js": "/static/js/main.7bbe2adb.chunk.js",
+    "main.js.map": "/static/js/main.7bbe2adb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9aeaae99.js",
     "runtime-main.js.map": "/static/js/runtime-main.9aeaae99.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
     "static/js/2.4d70d356.chunk.js": "/static/js/2.4d70d356.chunk.js",
     "static/js/2.4d70d356.chunk.js.map": "/static/js/2.4d70d356.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cfc8a2d79f2035833ca5d6d7782f0d15.js": "/precache-manifest.cfc8a2d79f2035833ca5d6d7782f0d15.js",
+    "precache-manifest.bd1b47aa13d852f1c623ebcdf6ed9fa7.js": "/precache-manifest.bd1b47aa13d852f1c623ebcdf6ed9fa7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.914eb867.chunk.css.map": "/static/css/main.914eb867.chunk.css.map",
     "static/js/2.4d70d356.chunk.js.LICENSE.txt": "/static/js/2.4d70d356.chunk.js.LICENSE.txt",
+    "static/media/2021_ruimin-cv.pdf": "/static/media/2021_ruimin-cv.044b0562.pdf",
     "static/media/profile_s.jpg": "/static/media/profile_s.73e6dd21.jpg",
     "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.b1e8f52e.pdf",
-    "static/media/ruimin-neu-cv.pdf": "/static/media/ruimin-neu-cv.a4681633.pdf",
     "static/media/sok_preprint.pdf": "/static/media/sok_preprint.185e0b68.pdf"
   },
   "entrypoints": [
@@ -24,6 +24,6 @@
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.4d70d356.chunk.js",
     "static/css/main.914eb867.chunk.css",
-    "static/js/main.ad5604a4.chunk.js"
+    "static/js/main.7bbe2adb.chunk.js"
   ]
 }

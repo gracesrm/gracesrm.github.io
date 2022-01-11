@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edf4b2d0d858652eac6b9605980f025c",
+    "revision": "2df6892ef1b39e22d84e3094a7912bfc",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "bd557006940d9f059bba",
+    "revision": "321c1e3ea8a04e138283",
     "url": "/static/css/main.914eb867.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4d70d356.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd557006940d9f059bba",
-    "url": "/static/js/main.ad5604a4.chunk.js"
+    "revision": "321c1e3ea8a04e138283",
+    "url": "/static/js/main.7bbe2adb.chunk.js"
   },
   {
     "revision": "e731ebcf83609e71b2bd",
     "url": "/static/js/runtime-main.9aeaae99.js"
+  },
+  {
+    "revision": "044b0562068cfa1fc7ce4adec4d98ce2",
+    "url": "/static/media/2021_ruimin-cv.044b0562.pdf"
   },
   {
     "revision": "73e6dd21c570d90492403c691dee2e13",
@@ -34,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b1e8f52eabb976f2fd2d0d715d97f1f7",
     "url": "/static/media/propedeutica_2018.b1e8f52e.pdf"
-  },
-  {
-    "revision": "a46816333f90a4c3866cc2e071b00507",
-    "url": "/static/media/ruimin-neu-cv.a4681633.pdf"
   },
   {
     "revision": "185e0b686377fd18dce80aec2e479291",
