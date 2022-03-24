@@ -44,6 +44,12 @@ const Research = () => {
 const publications = () => (
     <ol reversed>
         <li className="text-left li_padding_bottom">
+            <dt>D-Box: DMA-enabled compartmentalization for embedded applications.</dt>
+            <div>Alejandro Mera, Yi Hui Chen, <b>Ruimin Sun</b>, Engin Kirda, Long Lu</div>
+            <div><em>29th Network and Distributed System Security Symposium (NDSS), 2022. 
+            <a href={"https://www.ndss-symposium.org/ndss2022/"}> [PDF]</a></em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
             <dt>Challenges and Pitfalls in Malware Research. </dt>
             <div>Marcus Botacin, Fabricio Ceschin, <b>Ruimin Sun</b>, Daniela Oliveira, André Grégio. </div>
             <div><em>Computers & Security, Jul 1;106:102287. 2021. 
