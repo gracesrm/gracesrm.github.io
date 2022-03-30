@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15b280948fa44ba63fb0d95d01eab402",
+    "revision": "6ebca5a1b7ee11efb8ba131974d61300",
     "url": "/index.html"
   },
   {
-    "revision": "cb615ee03680fdb628b6",
+    "revision": "51bbca359c6a85eb3b47",
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "5aa4d0edf248b4fa9309",
+    "revision": "7df7fd329d1e22f75079",
     "url": "/static/css/main.914eb867.chunk.css"
   },
   {
-    "revision": "cb615ee03680fdb628b6",
-    "url": "/static/js/2.4d70d356.chunk.js"
+    "revision": "51bbca359c6a85eb3b47",
+    "url": "/static/js/2.a18928b7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.4d70d356.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a18928b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5aa4d0edf248b4fa9309",
-    "url": "/static/js/main.317b61a1.chunk.js"
+    "revision": "7df7fd329d1e22f75079",
+    "url": "/static/js/main.db8a0266.chunk.js"
   },
   {
     "revision": "e731ebcf83609e71b2bd",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "044b0562068cfa1fc7ce4adec4d98ce2",
     "url": "/static/media/2021_ruimin-cv.044b0562.pdf"
+  },
+  {
+    "revision": "e9b9f0bc616838c8bf715b8025cce3b9",
+    "url": "/static/media/PhD_openings_fall22.e9b9f0bc.pdf"
   },
   {
     "revision": "73e6dd21c570d90492403c691dee2e13",
