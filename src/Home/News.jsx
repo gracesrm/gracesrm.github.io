@@ -16,7 +16,7 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
-                    <li className="text-left" style={{color:'red',fontWeight: 'bold'}}>[New!] I'm going to join FIU as a tenure-track assistant professor. Send me an email if you are interested in security research.</li>
+                    <li className="text-left" >[New!] I'm going to join FIU as a tenure-track assistant professor. Send me an email if you are interested in security research.</li>
                     <li className="text-left">[Dec 2021] Our work D-Box: DMA-enabled compartmentalization for embedded applications is accepted by <a href="https://www.ndss-symposium.org/ndss2022/">NDSS'22</a>. </li>
                     <li className="text-left">[Mar 2021] I'm going to teach CS 3740 - Systems Security at Northeastern University. </li>
                     <li className="text-left">[Mar 2021] Our <a href={require("../Downloads/paper/sok_preprint.pdf")}>Sok study</a> on PLC attacks and formal verifiation-based protection is to appear at <a href="http://www.ieee-security.org/TC/EuroSP2021/">EuroS&P'21</a>. </li>

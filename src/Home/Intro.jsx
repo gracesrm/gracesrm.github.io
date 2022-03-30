@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import profImageVeritcal from '../Assets/profile_s.jpg';
 import ParagraphContainer from '../ParagraphContainer';
+import hiring from '../Downloads/hiring/PhD_openings_fall22.pdf'
 
 
 const Intro = () => {
@@ -23,6 +24,12 @@ const Intro = () => {
         My recent works include PLC protection, and proprietary AI protection on the edge devices.
 
                 </Container>
+                <Container className="text-left" style={{paddingTop: "1em"}}>
+                <b><font color="red">[News!] I'm going to join FIU as a tenure-track assistant professor. </font></b>
+                If you are interested in security research, please send your CV, transcript, and test scores to <a href="mailto:r.sun.fiu@gmail.com">r.sun.fiu@gmail.com</a>.
+                More hiring information can be found <a href={hiring}>here</a>.
+                </Container>
+
             </ParagraphContainer>
         </Container>
     )
@@ -31,12 +38,15 @@ const Intro = () => {
 const intro = () => (
     <Container>
         <Row style={{paddingTop: "0.5em"}} className="h3">Ruimin Sun (孙睿敏)</Row>
-        <Row className="h6"><em>Postdoctoral Research Associate</em></Row>
-        <Row style={{paddingTop: "1.5em"}}/>
+        <Row style={{paddingTop: "0.5em"}}/>
+        <Row>Postdoctoral Research Associate</Row>
         <Row>Khoury College of Computer Sciences</Row>
         <Row>Northeastern University</Row>
+        <Row><b>Email:</b> r.sun AT northeastern.edu <br/></Row>
         <Row style={{paddingTop: "1.5em"}}/>
-        <Row><b>Email:</b> r.sun@northeastern.edu <br/></Row>
+        <Row className="h6">Assistant Professor, joining FIU fall'22 </Row>
+        {/* <Row className="h6">joining FIU fall'22</Row> */}
+
         {/* <Row><b>Campus Address:</b> 634 ISEC, 805 Columbus Ave</Row> */}
         <Row style={{paddingTop: "1em"}}/>
     </Container>
