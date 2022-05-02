@@ -47,7 +47,7 @@ const publications = () => (
             <dt>D-Box: DMA-enabled compartmentalization for embedded applications.</dt>
             <div>Alejandro Mera, Yi Hui Chen, <b>Ruimin Sun</b>, Engin Kirda, Long Lu</div>
             <div><em>29th Network and Distributed System Security Symposium (NDSS), 2022. 
-            <a href={"https://www.ndss-symposium.org/ndss2022/"}> [PDF]</a></em></div>
+            <a href={"https://www.ndss-symposium.org/wp-content/uploads/2022-53-paper.pdf"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>Challenges and Pitfalls in Malware Research. </dt>
@@ -125,17 +125,17 @@ const patents = () => (
         <li className="text-left li_padding_bottom">
             <div>An Unsupervised Event Driven Targeted Analysis Approach.</div>
             <div><b>Ruimin Sun</b>, Zhen Mo, Bin Zan, Vamsi Akkineni, Vijay Ganti. </div>
-            <div><em>US Patent Application 16/242,396 </em></div>
+            <div><em>US Patent 11,295,011 </em></div>
         </li>            
         <li className="text-left li_padding_bottom">
             <dt>A Holo-Entropy Based Alarm Scoring Approach.</dt> 
             <div>Zhen Mo, Dexiang Wang, Bin Zan, Vijay Ganti, Amit Chopra, <b>Ruimin Sun</b>. </div>
-            <div><em>US Patent Application 16/212,170</em></div>
+            <div><em>US Patent 11,258,655</em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>Security Protection For A Host Computer In A Computer Network Using Cross-Domain Security-Relevant Information Sharing.</dt>
             <div>David Ott, Lei Xu, <b>Ruimin Sun</b>, Vijay Ganti, Dannis Moreau. </div>
-            <div><em>US Patent Application 16/255,551</em></div>
+            <div><em>US Patent 11,316,879</em></div>
         </li>
     </ol>
 )

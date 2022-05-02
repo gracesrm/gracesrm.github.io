@@ -15,6 +15,11 @@ const Teaching = () => (
         <ParagraphContainer>
             <ol>
                 <li className="text-left li_padding_bottom">
+                    <dt>Principles of Cybersecurity (CIS 5370)</dt>
+                    <div><b>Lecturer</b>: 2022</div>
+                    {/* <dd><a href="https://www.ece.ufl.edu/wp-content/uploads/syllabi/Spring2017/EEL5934_Cross_Layer_Sec_Spring_2017.pdf">Syllabus</a></dd> */}
+                </li>
+                <li className="text-left li_padding_bottom">
                     <dt>Systems Security (CY 3740)</dt>
                     <div><b>Lecturer</b>: 2021</div>
                     {/* <dd><a href="https://www.ece.ufl.edu/wp-content/uploads/syllabi/Spring2017/EEL5934_Cross_Layer_Sec_Spring_2017.pdf">Syllabus</a></dd> */}
