@@ -16,6 +16,8 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
+                    <li className="text-left" >[June 2022] Our work <a href="https://ieeexplore.ieee.org/document/9786768">Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles</a> is accepted by IEEE Transactions on Biometrics, Behavior, and Identity Science.</li>
+                    <li className="text-left" >[May 2022] I'm serving as Guest Editor at Special Issue on Memory-based Malware and other Unconventional Threats at ACM Journal <a href="https://dl.acm.org/journal/dtrap">Digital Threats: Research and Practice</a>.</li>
                     <li className="text-left" >[April 2022] Our work <a href="https://www.ndss-symposium.org/ndss-paper/auto-draft-258/"> D-Box: DMA-enabled compartmentalization for embedded applications </a> is presented at NDSS 2022.</li>
                     <li className="text-left" >[Mar 2022] I'm going to join FIU as a tenure-track assistant professor. Send me an email if you are interested in security research.</li>
                     <li className="text-left">[Dec 2021] Our work D-Box: DMA-enabled compartmentalization for embedded applications is accepted by <a href="https://www.ndss-symposium.org/ndss2022/">NDSS'22</a>. </li>

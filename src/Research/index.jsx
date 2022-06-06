@@ -35,6 +35,10 @@ const Research = () => {
                 <h3>Poster Presentations</h3>
             </Row>
             <Paragraph>{poster()}</Paragraph>
+            <Row
+                className="justify-content-center"
+                style={{paddingTop: "5em"}}>
+            </Row>
         </Container>
     );
 }
@@ -43,6 +47,12 @@ const Research = () => {
 
 const publications = () => (
     <ol reversed>
+        <li className="text-left li_padding_bottom">
+            <dt>Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles.</dt>
+            <div>Luiz Giovanini, etc.</div>
+            <div><em>IEEE Transactions on Biometrics, Behavior, and Identity Science, 2022. 
+            <a href={"https://ieeexplore.ieee.org/document/9786768"}> [PDF]</a></em></div>
+        </li>
         <li className="text-left li_padding_bottom">
             <dt>D-Box: DMA-enabled compartmentalization for embedded applications.</dt>
             <div>Alejandro Mera, Yi Hui Chen, <b>Ruimin Sun</b>, Engin Kirda, Long Lu</div>
@@ -143,15 +153,16 @@ const patents = () => (
 
 const talks = () => (
     <ol>
-        <li className="text-left">SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses, EuroS&P, 2021</li>
-        <li className="text-left">SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses, University of Wisconsin - Madison, 2020</li>
-        <li className="text-left">Leveraging Unpredictability to Improve System Security and Reliability, Northeastern University, 2019 </li>
-        <li className="text-left">Sherlock: An AI-based Event-driven System Behavior Diagnosing Approach, VMware, 2018</li>
-        <li className="text-left">Leveraging Unpredictabilities for Real-time Malware Mitigation, Miami University, Ohio, 2018</li>
-        <li className="text-left">How Diverse OS can Improve Software Reliability towards OS (Mis)Behavior, Beihang University, China, 2017</li>
-        <li className="text-left">The Dose Makes the Poison - Leveraging Uncertainty for Effective Malware Detection, DSC 2017</li>
-        <li className="text-left">Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior, ISSRE 2016</li>
-        <li className="text-left">The Case for Less Predictable Operating System Behavior, HotOS 2015</li>
+        <li className="text-left"><b>Security and privacy in critical applications and services</b>, West Virginia University; Washington State University; Drexel University; University of Houston; University of Notre Dame; Florida International University, 2022</li>
+        <li className="text-left"><b>SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses</b>, EuroS&P, 2021</li>
+        <li className="text-left"><b>SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses</b>, University of Wisconsin - Madison, 2020</li>
+        <li className="text-left"><b>Leveraging Unpredictability to Improve System Security and Reliability</b>, Northeastern University, 2019 </li>
+        <li className="text-left"><b>Sherlock: An AI-based Event-driven System Behavior Diagnosing Approach</b>, VMware, 2018</li>
+        <li className="text-left"><b>Leveraging Unpredictabilities for Real-time Malware Mitigation</b>, Miami University, Ohio, 2018</li>
+        {/* <li className="text-left"><b>How Diverse OS can Improve Software Reliability towards OS (Mis)Behavior</b>, Beihang University, China, 2017</li> */}
+        <li className="text-left"><b>The Dose Makes the Poison - Leveraging Uncertainty for Effective Malware Detection</b>, DSC 2017</li>
+        <li className="text-left"><b>Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior</b>, ISSRE 2016</li>
+        <li className="text-left"><b>The Case for Less Predictable Operating System Behavior</b>, HotOS 2015</li>
     </ol>
 )
 
