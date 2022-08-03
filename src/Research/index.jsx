@@ -49,7 +49,7 @@ const publications = () => (
     <ol reversed>
         <li className="text-left li_padding_bottom">
             <dt>Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles.</dt>
-            <div>Luiz Giovanini, etc.</div>
+            <div>Giovanini, L., Ceschin, F., Silva, M., Chen, A., Kulkarni, R., Banda, S., Lysaght, M., Qiao, H., Sapountzis, N., Sun, R. and Matthews, B.</div>
             <div><em>IEEE Transactions on Biometrics, Behavior, and Identity Science, 2022. 
             <a href={"https://ieeexplore.ieee.org/document/9786768"}> [PDF]</a></em></div>
         </li>
@@ -68,7 +68,7 @@ const publications = () => (
         <li className="text-left li_padding_bottom">
             <dt> SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses.</dt>
             <div><b>Ruimin Sun</b>, Alejandro Mera, Long Lu, David Choffnes. </div>
-            <div><em>EuroS&P, 2021. 
+            <div><em>IEEE European Symposium on Security and Privacy (EuroS&P), 2021. 
             <a href={"https://www.ieee-security.org/TC/EuroSP2021/accepted.html"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
@@ -88,8 +88,7 @@ const publications = () => (
             <dt> MITOS: Optimal Propagation Decisioning in Dynamic Information Flow Tracking.</dt> 
             <div>Nikolaos Sapountzis, <b>Ruimin Sun</b>, Xuetao Wei, Yier Jin, Jedidiah R. Crandall, Daniela Oliveira. </div>
             <div><em>IEEE International Conference on Distributed Computing Systems (ICDCS), 2020. 
-            <a href={"https://ieeexplore.ieee.org/document/9355732"}> [PDF]</a> (to be appeared)
-            Acceptance rate: 105/584 = 17.9%.</em></div>
+            <a href={"https://ieeexplore.ieee.org/document/9355732"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>DDIFT: Decentralized Dynamic Information Flow Tracking for IoT Privacy and Security.</dt>
