@@ -24,7 +24,9 @@ ol > li:before {
     font-style: italic;
 } */
 
-a:any-link {
-    /* color: rgb(9, 131, 231); */
+a:any-link{
+    font-size: 14.5px;
     font-weight: bold;
 }
+
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import './App.css';
@@ -10,15 +11,10 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     const padding = { paddingLeft: "4em", paddingRight: "4em"};
     return (
-        <Navbar 
-            collapseOnSelect 
-            expand="lg" 
-            variant="dark"
-            className="neu_bg_red py-1"
-        >
-            {/* <Navbar.Brand href="#home">Ruimin Sun</Navbar.Brand> */}
+        <Navbar expand="lg" variant="light" bg="light">
+        <Container fluid>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar.Collapse id="responsive-navbar-nav"> 
             <Nav className="mx-auto">
                 <Nav.Link style={padding} as={NavLink} to="/"><b>Home</b></Nav.Link>
                 <Nav.Link style={padding} as={NavLink} to="/research"><b>Research</b></Nav.Link>
@@ -32,6 +28,8 @@ const Navigation = () => {
 
             </Nav>
             </Navbar.Collapse>
+        </Container>
+
         </Navbar>
 )}
 
