@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.neu_bg_red {
+  background-color: grey;
+}
+
+.fiu_color_1 {
+  background-color: rgb(182, 134, 44);
+}
+.fiu_color_2 {
+  background-color: rgb(8, 30, 63);
+}
+
+.li_padding_bottom {
+  padding-bottom: 0.5em;
+}
+
+.ul_margin_bottom {
+  margin-bottom: 0;
+}
+
+.row_padding_top {
+  padding-top: 1.5em;
+}
+
+
+.h7{
+  color:rgb(89, 84, 84);
+  font-weight: bold;
+}
+
+.news {
+  background-color:rgb(182, 134, 44); /* rgb(182, 134, 44); */
+  color: white;/* */
+  padding: 1px 5px;
+  font-size: 14.5px;
+  text-decoration:none;
+  font-weight:bold;
+  /* font-style: italic; */
+  border-radius:2px;
+  cursor:pointer;
+}
