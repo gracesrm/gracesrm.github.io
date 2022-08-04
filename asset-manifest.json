@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.914eb867.chunk.css",
-    "main.js": "/static/js/main.46b3ff51.chunk.js",
-    "main.js.map": "/static/js/main.46b3ff51.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9aeaae99.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9aeaae99.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ca8cca96.chunk.js": "/static/js/2.ca8cca96.chunk.js",
-    "static/js/2.ca8cca96.chunk.js.map": "/static/js/2.ca8cca96.chunk.js.map",
+    "main.css": "/static/css/main.e20880ec.chunk.css",
+    "main.js": "/static/js/main.6878f93a.chunk.js",
+    "main.js.map": "/static/js/main.6878f93a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.799c7dd1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.799c7dd1.js.map",
+    "static/css/2.741e3868.chunk.css": "/static/css/2.741e3868.chunk.css",
+    "static/js/2.184324ec.chunk.js": "/static/js/2.184324ec.chunk.js",
+    "static/js/2.184324ec.chunk.js.map": "/static/js/2.184324ec.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.801df920614b9a97640fd0babf1ad239.js": "/precache-manifest.801df920614b9a97640fd0babf1ad239.js",
+    "precache-manifest.79f0fd36d90c8f20088de6b804924eed.js": "/precache-manifest.79f0fd36d90c8f20088de6b804924eed.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.914eb867.chunk.css.map": "/static/css/main.914eb867.chunk.css.map",
-    "static/js/2.ca8cca96.chunk.js.LICENSE.txt": "/static/js/2.ca8cca96.chunk.js.LICENSE.txt",
+    "static/css/2.741e3868.chunk.css.map": "/static/css/2.741e3868.chunk.css.map",
+    "static/css/main.e20880ec.chunk.css.map": "/static/css/main.e20880ec.chunk.css.map",
+    "static/js/2.184324ec.chunk.js.LICENSE.txt": "/static/js/2.184324ec.chunk.js.LICENSE.txt",
     "static/media/PhD_openings_fall22.pdf": "/static/media/PhD_openings_fall22.e9b9f0bc.pdf",
     "static/media/profile_s.jpg": "/static/media/profile_s.73e6dd21.jpg",
     "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.b1e8f52e.pdf",
     "static/media/sok_preprint.pdf": "/static/media/sok_preprint.185e0b68.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.9aeaae99.js",
-    "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.ca8cca96.chunk.js",
-    "static/css/main.914eb867.chunk.css",
-    "static/js/main.46b3ff51.chunk.js"
+    "static/js/runtime-main.799c7dd1.js",
+    "static/css/2.741e3868.chunk.css",
+    "static/js/2.184324ec.chunk.js",
+    "static/css/main.e20880ec.chunk.css",
+    "static/js/main.6878f93a.chunk.js"
   ]
 }
