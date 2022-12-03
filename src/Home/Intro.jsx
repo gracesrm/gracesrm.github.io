@@ -51,7 +51,7 @@ const intro = () => (
         <Row className="h7">School of Computing and Information Science</Row>
         <Row className="h7">Florida International University</Row>
         <Row style={{paddingTop: "1em"}}/>
-        <Row><b className="h7">Email:</b> &nbsp;r.sun AT fiu dot edu </Row>
+        <Row><b className="h7">Email:</b> &nbsp;rsun AT fiu dot edu </Row>
         <Row><b className="h7">Office:</b> &nbsp; CASE 317</Row>
         <Row><b className="h7">Address:</b> &nbsp; 11200 SW 8th Street, Miami, FL, USA 33199 <br/> </Row>
         <Row style={{paddingTop: "1.5em"}}/>
