@@ -1,29 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e20880ec.chunk.css",
-    "main.js": "/static/js/main.0aeacd4c.chunk.js",
-    "main.js.map": "/static/js/main.0aeacd4c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.799c7dd1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.799c7dd1.js.map",
-    "static/css/2.80f479d8.chunk.css": "/static/css/2.80f479d8.chunk.css",
-    "static/js/2.c6490568.chunk.js": "/static/js/2.c6490568.chunk.js",
-    "static/js/2.c6490568.chunk.js.map": "/static/js/2.c6490568.chunk.js.map",
+    "main.css": "/static/css/main.09e9450e.css",
+    "main.js": "/static/js/main.601832e2.js",
+    "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.a17ab457094c5558ad3a.pdf",
+    "static/media/sok_preprint.pdf": "/static/media/sok_preprint.a72f9b78a40d6c66420f.pdf",
+    "static/media/profile_s.jpg": "/static/media/profile_s.24ea899749395df6c108.jpg",
+    "static/media/PhD_openings_fall22.pdf": "/static/media/PhD_openings_fall22.402cb7e1c8207e9716b0.pdf",
     "index.html": "/index.html",
-    "precache-manifest.48debebd24c5b29d281f2f4f4ecffa3f.js": "/precache-manifest.48debebd24c5b29d281f2f4f4ecffa3f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.80f479d8.chunk.css.map": "/static/css/2.80f479d8.chunk.css.map",
-    "static/css/main.e20880ec.chunk.css.map": "/static/css/main.e20880ec.chunk.css.map",
-    "static/js/2.c6490568.chunk.js.LICENSE.txt": "/static/js/2.c6490568.chunk.js.LICENSE.txt",
-    "static/media/PhD_openings_fall22.pdf": "/static/media/PhD_openings_fall22.e9b9f0bc.pdf",
-    "static/media/profile_s.jpg": "/static/media/profile_s.73e6dd21.jpg",
-    "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.b1e8f52e.pdf",
-    "static/media/sok_preprint.pdf": "/static/media/sok_preprint.185e0b68.pdf"
+    "main.09e9450e.css.map": "/static/css/main.09e9450e.css.map",
+    "main.601832e2.js.map": "/static/js/main.601832e2.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.799c7dd1.js",
-    "static/css/2.80f479d8.chunk.css",
-    "static/js/2.c6490568.chunk.js",
-    "static/css/main.e20880ec.chunk.css",
-    "static/js/main.0aeacd4c.chunk.js"
+    "static/css/main.09e9450e.css",
+    "static/js/main.601832e2.js"
   ]
 }
