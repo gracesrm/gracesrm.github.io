@@ -13,6 +13,7 @@ const Students = () => (
         </Row>
         <Paragraph>
             <ol >
+                <li className='text-left li_padding_bottom'> Samin Yasar Chowdhury </li>
                 <li className="text-left li_padding_bottom"> Mohammed Al Duniawi </li>     
                 <li className="text-left li_padding_bottom"> Qiming Guo </li>       
             </ol>

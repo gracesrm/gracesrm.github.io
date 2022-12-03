@@ -16,6 +16,7 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
+                    <li className="text-left" >[Dec. 2022] Our work <a href="">ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks</a> is going to appear in IEEE S&P 2023. </li>
                     <li className="text-left" >[June 2022] Our work <a href="https://ieeexplore.ieee.org/document/9786768">Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles</a> is accepted by IEEE Transactions on Biometrics, Behavior, and Identity Science.</li>
                     <li className="text-left" >[May 2022] I'm serving as Guest Editor at Special Issue on Memory-based Malware and other Unconventional Threats at ACM Journal <a href="https://dl.acm.org/journal/dtrap">Digital Threats: Research and Practice</a>.</li>
                     <li className="text-left" >[April 2022] Our work <a href="https://www.ndss-symposium.org/ndss-paper/auto-draft-258/"> D-Box: DMA-enabled compartmentalization for embedded applications </a> is presented at NDSS 2022.</li>

@@ -48,6 +48,18 @@ const Research = () => {
 const publications = () => (
     <ol reversed>
         <li className="text-left li_padding_bottom">
+            <dt>ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks.</dt>
+            <div>Zhichuang Sun, Ruiming Sun, Changming Liu, Amrita Roy Chowdhury, Long Lu, Somesh Jha.</div>
+            <div><em>IEEE Symposium on Security and Privacy (S&P), 2023. 
+            <a href={""}> [PDF]</a></em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt>Decentralizing Cyber Physical Systems for Resilience: An Innovative Case Study from A Cybersecurity Perspective.</dt>
+            <div>Xueping Liang, Charalambos Konstantinou, Sachin Shetty, Eranga Bandara, <b>Ruimin Sun</b></div>
+            <div><em>Computers & Security, Jan 1;124:102953, 2023. 
+            <a href={"https://www.sciencedirect.com/science/article/pii/S0167404822003455"}> [PDF]</a></em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
             <dt>Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles.</dt>
             <div>Giovanini, L., Ceschin, F., Silva, M., Chen, A., Kulkarni, R., Banda, S., Lysaght, M., Qiao, H., Sapountzis, N., Sun, R. and Matthews, B.</div>
             <div><em>IEEE Transactions on Biometrics, Behavior, and Identity Science, 2022. 
@@ -62,7 +74,7 @@ const publications = () => (
         <li className="text-left li_padding_bottom">
             <dt>Challenges and Pitfalls in Malware Research. </dt>
             <div>Marcus Botacin, Fabricio Ceschin, <b>Ruimin Sun</b>, Daniela Oliveira, André Grégio. </div>
-            <div><em>Computers & Security, Jul 1;106:102287. 2021. 
+            <div><em>Computers & Security, Jul 1;106:102287, 2021. 
             <a href={"https://www.sciencedirect.com/science/article/pii/S0167404821001115"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
