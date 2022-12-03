@@ -49,7 +49,7 @@ const publications = () => (
     <ol reversed>
         <li className="text-left li_padding_bottom">
             <dt>ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks.</dt>
-            <div>Zhichuang Sun, Ruiming Sun, Changming Liu, Amrita Roy Chowdhury, Long Lu, Somesh Jha.</div>
+            <div>Zhichuang Sun, <b>Ruimin Sun</b>, Changming Liu, Amrita Roy Chowdhury, Long Lu, Somesh Jha.</div>
             <div><em>IEEE Symposium on Security and Privacy (S&P), 2023. 
             <a href={""}> [PDF]</a></em></div>
         </li>
