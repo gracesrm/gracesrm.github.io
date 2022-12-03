@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.09e9450e.css",
-    "main.js": "/static/js/main.cbb94f17.js",
+    "main.js": "/static/js/main.bc67caa1.js",
     "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.a17ab457094c5558ad3a.pdf",
     "static/media/sok_preprint.pdf": "/static/media/sok_preprint.a72f9b78a40d6c66420f.pdf",
     "static/media/profile_s.jpg": "/static/media/profile_s.24ea899749395df6c108.jpg",
     "static/media/PhD_openings_fall22.pdf": "/static/media/PhD_openings_fall22.402cb7e1c8207e9716b0.pdf",
     "index.html": "/index.html",
     "main.09e9450e.css.map": "/static/css/main.09e9450e.css.map",
-    "main.cbb94f17.js.map": "/static/js/main.cbb94f17.js.map"
+    "main.bc67caa1.js.map": "/static/js/main.bc67caa1.js.map"
   },
   "entrypoints": [
     "static/css/main.09e9450e.css",
-    "static/js/main.cbb94f17.js"
+    "static/js/main.bc67caa1.js"
   ]
 }
