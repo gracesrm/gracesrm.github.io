@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Paragraph from '../ParagraphContainer';
-import ParagraphContainer from '../ParagraphContainer';
+// import ParagraphContainer from '../ParagraphContainer';
 import '../AppVanillaHtml.css';
 
 
@@ -14,6 +14,20 @@ const Service = () => (
             <h3>Guest Editor</h3>
         </Row>
         <Paragraph>{guest()}</Paragraph>
+
+        <Row 
+            id="panel"
+            className="justify-content-center row_padding_top">
+            <h3>Panelist</h3>
+        </Row>
+        <Paragraph>{panel()}</Paragraph>
+
+        <Row 
+            id="chair"
+            className="justify-content-center row_padding_top">
+            <h3>Chair/Co-Chair</h3>
+        </Row>
+        <Paragraph>{chair()}</Paragraph>
 
         <Row 
             id="program committee"
@@ -41,14 +55,33 @@ const guest = () => (
     </ol>
 )
 
-const pc = () => (
+const panel = () => (
     <ol >
         <li className="text-left li_padding_bottom">
-            <div>ISSRE Fast Abstract, 2018</div>
-        </li>   
+            <div> Secure and Trustworthy Cyberspace (SaTC) | NSF, 2022, 2023</div>
+        </li>            
+    </ol>
+)
+
+const chair = () => (
+    <ol >
+        <li className="text-left li_padding_bottom">
+            <div><a href="https://ricssworkshop.github.io/">Workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, 2023</div>
+        </li>            
+    </ol>
+)
+
+const pc = () => (
+    <ol > 
+        <li className="text-left li_padding_bottom">
+            <div>(External) IEEE European Symposium on Security and Privacy, 2021</div>
+        </li>    
         <li className="text-left li_padding_bottom">
             <div>(Student Program Committee) IEEE Symposium on Security and Privacy (S&P), 2019</div>
-        </li>           
+        </li>   
+        <li className="text-left li_padding_bottom">
+            <div>ISSRE Fast Abstract, 2018</div>
+        </li>    
     </ol>
 )
 
