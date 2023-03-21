@@ -16,6 +16,7 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
+                    <li className='text-left'>[Mar. 2023] I'm serving on the PC of RAID, SecDev, and ICCCN. Consider submit your paper.</li>
                     <li className="text-left"><b className="label_news ">CFP</b>&nbsp;[Jan. 2023] I'm chairing the 1st <a href="https://ricssworkshop.github.io/">workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, happening on July 7, 2023, in Delft, Netherlands, co-located with IEEE EuroS&P 2023. Consider submit your paper <a href="https://ricssworkshop.github.io/cfp.html">CFP</a>. </li> 
                     <li className="text-left">[Jan. 2023] Our proposal on Trustworthy Lifecycle Modeling of CPS using Formal Methods was funded by NSF CITES. </li>
                     <li className="text-left">[Dec. 2022] Our work <a href="">ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks</a> is going to appear in IEEE S&P 2023. </li>
