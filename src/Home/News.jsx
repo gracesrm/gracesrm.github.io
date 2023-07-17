@@ -16,9 +16,13 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
-                    <li className='text-left'>[Mar. 2023] I'm serving on the PC of RAID, SecDev, and ICCCN. Consider submit your paper.</li>
+
+                    <li className='text-left'>[Jul. 2023] Our <i>ADvanced education and research for Machine learning-driven critical Infrastructure REsilience (ADMIRE) Center</i> (PI: Hadi Amini) is Awarded by DHS. Congratulations to the team!</li>
+                    <li className='text-left'>[Jul. 2023] Our paper <a href="https://www.computer.org/csdl/proceedings-article/eurospw/2023/272000a351/1OFtfz6r864">The Case for Virtual PLC-enabled Honeypot Design</a> has been awarded the <b className="label_news ">Best Paper Award</b>&nbsp; by RICSS @EuroS&P. Congratulations to Samin and Brandon!</li>
+                    <li className='text-left'>[Jul. 2023] Our paper <a href="https://www.computer.org/csdl/proceedings-article/eurospw/2023/272000a363/1OFtfAJLVx6">Unsafe Behavior Detection with Adaptive Contrastive Learning in Industrial Control Systems</a> has been accepted by RICSS @EuroS&P. Congratulations to the team!</li>
+                    <li className='text-left'>[Mar. 2023] I'm serving on the PC of CCS, RAID, SecDev, and ICCCN. Consider submit your paper.</li>
                     <li className="text-left"><b className="label_news ">CFP</b>&nbsp;[Jan. 2023] I'm chairing the 1st <a href="https://ricssworkshop.github.io/">workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, happening on July 7, 2023, in Delft, Netherlands, co-located with IEEE EuroS&P 2023. Consider submit your paper <a href="https://ricssworkshop.github.io/cfp.html">CFP</a>. </li> 
-                    <li className="text-left">[Jan. 2023] Our proposal on Trustworthy Lifecycle Modeling of CPS using Formal Methods was funded by NSF CITES. </li>
+                    <li className="text-left">[Jan. 2023] Our proposal <i>Trustworthy Lifecycle Modeling of CPS using Formal Methods</i> is funded by NSF CITES. </li>
                     <li className="text-left">[Dec. 2022] Our work <a href="">ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks</a> is going to appear in IEEE S&P 2023. </li>
                     <li className="text-left">[June 2022] Our work <a href="https://ieeexplore.ieee.org/document/9786768">Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles</a> is accepted by IEEE Transactions on Biometrics, Behavior, and Identity Science.</li>
                     <li className="text-left"><b className="label_news ">CFP</b>&nbsp;[May 2022] I'm serving as Guest Editor at Special Issue on Memory-based Malware and other Unconventional Threats at ACM Journal <a href="https://dl.acm.org/journal/dtrap">Digital Threats: Research and Practice</a>.</li>
