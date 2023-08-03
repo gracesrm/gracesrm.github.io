@@ -51,7 +51,7 @@ const publications = () => (
             <dt>ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks.</dt>
             <div>Zhichuang Sun, <b>Ruimin Sun</b>, Changming Liu, Amrita Roy Chowdhury, Long Lu, Somesh Jha.</div>
             <div><em>IEEE Symposium on Security and Privacy (S&P), 2023. 
-            <a href={""}> [PDF]</a></em></div>
+            <a href={"https://ieeexplore.ieee.org/document/10179382"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>Decentralizing Cyber Physical Systems for Resilience: An Innovative Case Study from A Cybersecurity Perspective.</dt>
@@ -81,7 +81,7 @@ const publications = () => (
             <dt> SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses.</dt>
             <div><b>Ruimin Sun</b>, Alejandro Mera, Long Lu, David Choffnes. </div>
             <div><em>IEEE European Symposium on Security and Privacy (EuroS&P), 2021. 
-            <a href={"https://www.ieee-security.org/TC/EuroSP2021/accepted.html"}> [PDF]</a></em></div>
+            <a href={"https://ieeexplore.ieee.org/document/9581186"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt> Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps.</dt>

@@ -22,9 +22,10 @@ const Navigation = () => {
                 <Nav.Link style={padding} as={NavLink} to="/service"><b>Service</b></Nav.Link>
                 <Nav.Link style={padding} as={NavLink} to="/students"><b>Students</b></Nav.Link>
 
-                {/* <Nav.Link style={padding} as={NavLink} to="/media"><b>Media Coverage</b></Nav.Link> */}
+                {/* <Nav.Link style={padding} as={NavLink} to="/courses"><b>Courses</b></Nav.Link> */}
                 {/* <Nav.Link href={cv} style={padding}><b>Vita</b></Nav.Link> */}
                 {/* <Nav.Link href={hiring} style={padding}><b>Hiring</b></Nav.Link> */}
+                {/* <Nav.Link href="http://ruiminsun-courses.s3-website-us-east-1.amazonaws.com/"  style={padding}><b>Courses</b></Nav.Link>  */}
 
             </Nav>
             </Navbar.Collapse>

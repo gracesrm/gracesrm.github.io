@@ -6,6 +6,7 @@ import Research from './Research';
 import Teaching from './Teaching';
 import Service from './Service';
 import Students from './Students';
+import Courses from './Courses';
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/teaching" component={Teaching}></Route>
             <Route exact path="/service" component={Service}></Route>
             <Route exact path="/students" component={Students}></Route>
+            <Route exact path="/courses" component={Courses}></Route>
           </Switch>
         </Body>
       </Router>

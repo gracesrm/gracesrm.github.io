@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Intro from './Intro';
 import News from './News';
 import Container from 'react-bootstrap/Container';
-import Paragraph from '../ParagraphContainer';
+
 
 const Home = () => {
     return (
