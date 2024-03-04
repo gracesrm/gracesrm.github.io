@@ -48,10 +48,47 @@ const Research = () => {
 const publications = () => (
     <ol reversed>
         <li className="text-left li_padding_bottom">
+            <dt>SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice.</dt>
+            <div>Tushar Nayan, Qiming Guo, Mohammed Al Duniawi, Marcus Botacin, Selcuk Uluagac, Ruimin Sun</div>
+            <div><em>USENIX Security 2024.
+            <a href={"https://drive.google.com/file/d/1FnUENEsZfO1-D4zlqxKkNaDmSmdCtRhq/view?usp=sharing"}> [PDF]</a>
+            <a href={"https://github.com/sys-ris3/ML_Extraction_Sok"}> [Code]</a>
+            {/* <a href={""}> [Slides]</a> */}
+            </em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt>SHiFT: Semi-hosted Fuzz Testing for Embedded Applications.</dt>
+            <div>Alejandro Mera, Changming Liu, Ruimin Sun, Engin Kirda, Long Lu</div>
+            <div><em>USENIX Security 2024.
+            <a href={"https://drive.google.com/file/d/18KLN-7W6ofk_mWESJ_Qq97pYwS54A2y9/view?usp=sharing"}> [PDF]</a>
+            {/* <a href={""}> [Code]</a>
+            <a href={""}> [Slides]</a> */}
+            </em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt>Unsafe Behavior Detection with Adaptive Contrastive Learning in Industrial Control Systems.</dt>
+            <div>Zheng, Xu and Wang, Tianchun and Chowdhury, Samin Yasar and Sun, Ruimin and Luo, Dongsheng</div>
+            <div><em>2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW). IEEE, 2023.
+            <a href={"https://drive.google.com/file/d/1aNYjXjSzhHvkVYECAaUQpD6KpGPxPMo1/view?usp=sharing"}> [PDF]</a>
+            {/* <a href={""}> [Code]</a> */}
+            {/* <a href={""}> [Slides]</a> */}
+            </em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
+            <dt>The Case for Virtual PLC-enabled Honeypot Design.</dt>
+            <div>Samin Y. Chowdhury, Brandon Dudley, and Ruimin Sun. </div>
+            <div><em>2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW). IEEE, 2023.         
+            <a href={"https://drive.google.com/file/d/1TV8T44Ht5zUohe1ixWwpaTS-6g_tLOw3/view?usp=sharing"}> [PDF]</a>
+            <a href={"https://github.com/sys-ris3/PLCHoney"}> [Code]</a>
+            <a href={"https://drive.google.com/file/d/1lfbw1rhusml3ujGYg7zoYglVY56SSB5d/view?usp=sharing"}> [Slides]</a></em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
             <dt>ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks.</dt>
             <div>Zhichuang Sun, <b>Ruimin Sun</b>, Changming Liu, Amrita Roy Chowdhury, Long Lu, Somesh Jha.</div>
             <div><em>IEEE Symposium on Security and Privacy (S&P), 2023. 
-            <a href={"https://ieeexplore.ieee.org/document/10179382"}> [PDF]</a></em></div>
+            <a href={"https://drive.google.com/file/d/1SnGFwvKgPgpy-6q29DWYoMPVjqLLMXNE/view?usp=sharing"}> [PDF]
+            {/* <a href={""}> [Code] */}
+            </a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>Decentralizing Cyber Physical Systems for Resilience: An Innovative Case Study from A Cybersecurity Perspective.</dt>
@@ -63,13 +100,15 @@ const publications = () => (
             <dt>Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles.</dt>
             <div>Giovanini, L., Ceschin, F., Silva, M., Chen, A., Kulkarni, R., Banda, S., Lysaght, M., Qiao, H., Sapountzis, N., Sun, R. and Matthews, B.</div>
             <div><em>IEEE Transactions on Biometrics, Behavior, and Identity Science, 2022. 
-            <a href={"https://ieeexplore.ieee.org/document/9786768"}> [PDF]</a></em></div>
+            <a href={"https://drive.google.com/file/d/1yI5xtzHH4eqYhAaimsKqZXZESqksB6jP/view?usp=sharing"}> [PDF]</a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>D-Box: DMA-enabled compartmentalization for embedded applications.</dt>
             <div>Alejandro Mera, Yi Hui Chen, <b>Ruimin Sun</b>, Engin Kirda, Long Lu</div>
             <div><em>29th Network and Distributed System Security Symposium (NDSS), 2022. 
-            <a href={"https://www.ndss-symposium.org/wp-content/uploads/2022-53-paper.pdf"}> [PDF]</a></em></div>
+            <a href={"https://www.ndss-symposium.org/wp-content/uploads/2022-53-paper.pdf"}> [PDF]</a>
+            <a href={"https://github.com/RiS3-Lab/D-Box"}> [Code]</a>
+            </em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt>Challenges and Pitfalls in Malware Research. </dt>
@@ -81,13 +120,17 @@ const publications = () => (
             <dt> SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses.</dt>
             <div><b>Ruimin Sun</b>, Alejandro Mera, Long Lu, David Choffnes. </div>
             <div><em>IEEE European Symposium on Security and Privacy (EuroS&P), 2021. 
-            <a href={"https://ieeexplore.ieee.org/document/9581186"}> [PDF]</a></em></div>
+            <a href={"https://drive.google.com/file/d/1w7NOg4L_VnR183n8SAo6Z528BF5hrN5a/view?usp=sharing"}> [PDF]
+            <a href={"https://github.com/sys-ris3/ICS-sok-code"}>[Code]</a>
+            </a></em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt> Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps.</dt>
             <div>Zhichuang Sun, <b>Ruimin Sun</b>, Long Lu, Alan Mislove. </div>
             <div><em>USENIX Security, 2021.
-            <a href={"https://www.usenix.org/system/files/sec21-sun-zhichuang.pdf"}> [PDF]</a></em></div>
+            <a href={"https://www.usenix.org/system/files/sec21-sun-zhichuang.pdf"}> [PDF]</a>
+            <a href={"https://github.com/RiS3-Lab/ModelXRay"}> [Code]</a>
+            </em></div>
         </li>
         <li className="text-left li_padding_bottom">
             <dt> A Praise for Defensive Programming - Leveraging Uncertainty for Effective Malware Mitigation.</dt>
