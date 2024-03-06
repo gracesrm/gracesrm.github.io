@@ -66,6 +66,15 @@ const publications = () => (
             </em></div>
         </li>
         <li className="text-left li_padding_bottom">
+            <dt>Privacy-Preserving Oriented Design for Multi-Modality Models using FL.</dt>
+            <div>Mohammed Al Duniawi, Kemal Akkaya, Ruimin Sun</div>
+            <div><em>5th IEEE International Conference on Trust, Privacy and Security in Intelligent Systems and Applications (TPS-ISA). IEEE, 2023.
+            <a href={"https://drive.google.com/file/d/1_HjnBRFnCIIs7k3iwFU-BFgNIeUysxpa/view?usp=sharing"}> [PDF]</a>
+            {/* <a href={""}> [Code]</a> */}
+            {/* <a href={""}> [Slides]</a> */}
+            </em></div>
+        </li>
+        <li className="text-left li_padding_bottom">
             <dt>Unsafe Behavior Detection with Adaptive Contrastive Learning in Industrial Control Systems.</dt>
             <div>Zheng, Xu and Wang, Tianchun and Chowdhury, Samin Yasar and Sun, Ruimin and Luo, Dongsheng</div>
             <div><em>2023 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW). IEEE, 2023.
