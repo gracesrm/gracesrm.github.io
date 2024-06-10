@@ -16,6 +16,8 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
+                    <li className="text-left"><b className="label_news ">CFP</b>&nbsp;[June. 2024] I'm chairing the <a href="https://ricssworkshop.github.io/">Re-design Industrial Control Systems with Security (RICSS) Workshop</a>, happening on Oct. 14, 2024, in Salt Lake City, Utah, 
+                    co-located with ACM CCS 2024. Consider submit your paper <a href="https://ricssworkshop.github.io/">CFP</a>. </li> 
                     <li className='text-left'><b className="label_news ">Paper</b>&nbsp;[Mar. 2024] Our paper "SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice" is accepted by Usenix Security 2024. Congratulations Tushar!</li>
                     <li className='text-left'><b className="label_news ">Paper</b>&nbsp;[Mar. 2024] Our paper "SHiFT: Semi-hosted Fuzz Testing for Embedded Applications" is accepted by Usenix Security 2024. Congratulations Alejandro!</li>
                     <li className='text-left'>[Jul. 2023] Our <i>ADvanced education and research for Machine learning-driven critical Infrastructure REsilience (ADMIRE) Center</i> (PI: Hadi Amini) is Awarded by DHS. Congratulations to the team!</li>

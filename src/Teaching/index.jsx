@@ -17,7 +17,7 @@ const Teaching = () => (
                 <li className="text-left li_padding_bottom">
                     <dt>Principles of Cybersecurity (CIS 5370)</dt>
                     Florida International University
-                    <div><b>Lecturer</b>: fall'22, spring'23, fall'23</div>
+                    <div><b>Lecturer</b>: fall'22, spring'23, fall'23, fall'24</div>
                     {/* <dd><a href="https://www.ece.ufl.edu/wp-content/uploads/syllabi/Spring2017/EEL5934_Cross_Layer_Sec_Spring_2017.pdf">Syllabus</a></dd> */}
                 </li>
                 <li className="text-left li_padding_bottom">

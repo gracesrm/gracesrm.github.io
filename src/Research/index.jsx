@@ -51,7 +51,7 @@ const publications = () => (
             <dt>SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice.</dt>
             <div>Tushar Nayan, Qiming Guo, Mohammed Al Duniawi, Marcus Botacin, Selcuk Uluagac, Ruimin Sun</div>
             <div><em>USENIX Security 2024.
-            <a href={"https://drive.google.com/file/d/1FnUENEsZfO1-D4zlqxKkNaDmSmdCtRhq/view?usp=sharing"}> [PDF]</a>
+            <a href={"https://www.usenix.org/system/files/sec24fall-prepub-2341-nayan.pdf"}> [PDF]</a>
             <a href={"https://github.com/sys-ris3/ML_Extraction_Sok"}> [Code]</a>
             {/* <a href={""}> [Slides]</a> */}
             </em></div>
@@ -60,7 +60,7 @@ const publications = () => (
             <dt>SHiFT: Semi-hosted Fuzz Testing for Embedded Applications.</dt>
             <div>Alejandro Mera, Changming Liu, Ruimin Sun, Engin Kirda, Long Lu</div>
             <div><em>USENIX Security 2024.
-            <a href={"https://drive.google.com/file/d/18KLN-7W6ofk_mWESJ_Qq97pYwS54A2y9/view?usp=sharing"}> [PDF]</a>
+            <a href={"https://www.usenix.org/system/files/sec24summer-prepub-88-mera.pdf"}> [PDF]</a>
             {/* <a href={""}> [Code]</a>
             <a href={""}> [Slides]</a> */}
             </em></div>
@@ -216,6 +216,7 @@ const patents = () => (
 
 const talks = () => (
     <ol>
+        <li className="text-left"><b>A Hands-on Workshop on Cybersecurity of Critical Infrastructures</b>, ADMIRE Day, FIU, 2024</li>
         <li className="text-left"><b>Security and privacy in critical applications and services</b>, West Virginia University; Washington State University; Drexel University; University of Houston; University of Notre Dame; Florida International University, 2022</li>
         <li className="text-left"><b>SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses</b>, EuroS&P, 2021</li>
         <li className="text-left"><b>SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses</b>, University of Wisconsin - Madison, 2020</li>
@@ -231,6 +232,7 @@ const talks = () => (
 
 const poster = () => (
     <ol>
+        <li className="text-left">The Achilles Heel of Extended Reality Apps: Probing Availability Vulnerability in Artificial Intelligence Components, USENIX Security 2023</li>
         <li className="text-left">Learning Fast and Slow: Propedeutica for Real-time Malware Detection, FICS Conf. 2018</li>
         <li className="text-left">Adversarial Voice Commands (AdVoice) in the Physical World, FICS Conf. 2018</li>
         <li className="text-left">Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior, FICS Conf. 2017 </li>

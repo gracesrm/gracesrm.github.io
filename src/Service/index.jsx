@@ -57,19 +57,25 @@ const guest = () => (
 const panel = () => (
     <ol >
         <li className="text-left li_padding_bottom">
-            <div> Secure and Trustworthy Cyberspace (SaTC) | NSF, 2022, 2023</div>
-        </li>      
+            <div> Computer and Information Science and Engineering (CISE) | NSF, 2024</div>
+        </li> 
         <li className="text-left li_padding_bottom">
             <div> National Defense Science and Engineering Graduate (NDSEG) Fellowship | DoD, 2023</div>
         </li>        
+        <li className="text-left li_padding_bottom">
+            <div> Secure and Trustworthy Cyberspace (SaTC) | NSF, 2022, 2023</div>
+        </li> 
     </ol>
 )
 
 const chair = () => (
     <ol >
         <li className="text-left li_padding_bottom">
+            <div><a href="https://ricssworkshop.github.io/">Workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, 2024</div>
+        </li> 
+        <li className="text-left li_padding_bottom">
             <div><a href="https://ricssworkshop.github.io/">Workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, 2023</div>
-        </li>            
+        </li>           
     </ol>
 )
 
