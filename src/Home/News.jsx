@@ -16,6 +16,7 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
+                    <li className="text-left">[June. 2024] Our proposal <i><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2419843">Secure Machine Learning Inference in IoT-driven Analytical Scientific Infrastructure</a></i> is funded by NSF CICI. </li> 
                     <li className="text-left"><b className="label_news ">CFP</b>&nbsp;[June. 2024] I'm chairing the <a href="https://ricssworkshop.github.io/">Re-design Industrial Control Systems with Security (RICSS) Workshop</a>, happening on Oct. 14, 2024, in Salt Lake City, Utah, 
                     co-located with ACM CCS 2024. Consider submit your paper <a href="https://ricssworkshop.github.io/">CFP</a>. </li> 
                     <li className='text-left'><b className="label_news ">Paper</b>&nbsp;[Mar. 2024] Our paper "SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice" is accepted by Usenix Security 2024. Congratulations Tushar!</li>
@@ -26,7 +27,7 @@ const News = () => {
                     <li className='text-left'>[Mar. 2023] I'm serving on the PC of CCS, RAID, SecDev, and ICCCN. Consider submit your paper.</li>
                     <li className="text-left"><b className="label_news ">CFP</b>&nbsp;[Jan. 2023] I'm chairing the 1st <a href="https://ricssworkshop.github.io/">workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, happening on July 7, 2023, in Delft, Netherlands, co-located with IEEE EuroS&P 2023. Consider submit your paper <a href="https://ricssworkshop.github.io/cfp.html">CFP</a>. </li> 
                     <li className="text-left">[Jan. 2023] Our proposal <i>Trustworthy Lifecycle Modeling of CPS using Formal Methods</i> is funded by NSF CITES. </li>
-                    <li className="text-left">[Dec. 2022] Our work <a href="">ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks</a> is going to appear in IEEE S&P 2023. </li>
+                    <li className="text-left">[Dec. 2022] Our work <a href="https://www.arxiv.org/abs/2011.05905">ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks</a> is going to appear in IEEE S&P 2023. </li>
                     </ul>
                 <Collapse in={!showText}>
                     <div onClick={() => setShowText(!showText)} style={{'margin_bottom': '5em'}}>[<b><u>See more</u></b>]</div>
