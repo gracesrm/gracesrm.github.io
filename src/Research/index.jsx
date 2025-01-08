@@ -232,9 +232,10 @@ const talks = () => (
 
 const poster = () => (
     <ol>
+        <li className="text-left">Machine Learning Model Extraction on IoT Devices - Gaps Between Research and Practice, Warren B. Nelms IoT Conference, 2024 <b>(Best Poster Award)</b></li>
         <li className="text-left">The Achilles Heel of Extended Reality Apps: Probing Availability Vulnerability in Artificial Intelligence Components, USENIX Security 2023</li>
         <li className="text-left">Learning Fast and Slow: Propedeutica for Real-time Malware Detection, FICS Conf. 2018</li>
-        <li className="text-left">Adversarial Voice Commands (AdVoice) in the Physical World, FICS Conf. 2018</li>
+        <li className="text-left">Adversarial Voice Commands (AdVoice) in the Physical World, FICS Conf. 2018 <b>(Best Poster Award)</b></li>
         <li className="text-left">Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior, FICS Conf. 2017 </li>
         <li className="text-left">DeepMalware: Deep Models and Mechanisms for Malware Detection, NSF-CBL 2017, FICS Conf. 2017</li>
         <li className="text-left">The Case for Less Predictable Operating System Behavior, FICS Conf. 2016</li>

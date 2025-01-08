@@ -24,6 +24,8 @@ const Students = () => (
         <Paragraph>
             <ol >
             <h3>Master Students</h3>
+                <li className='text-left li_padding_bottom'> Raja Shekar Reddy Seelam (Spring'25)</li>
+                <li className='text-left li_padding_bottom'> Lousindy Mitton (Fall'24 - present)</li>
                 <li className='text-left li_padding_bottom'> Sai Siva Prabhu Teja Kondapalli (Fall'23)</li>
                 <li className='text-left li_padding_bottom'> Tushar Nayan (Summer'23 - Spring'24) </li>
                 <li className="text-left li_padding_bottom"> Srimant Kumar Mohanty (Summer'23) </li>    
