@@ -71,19 +71,29 @@ const panel = () => (
 const chair = () => (
     <ol >
         <li className="text-left li_padding_bottom">
-            <div><a href="https://ricssworkshop.github.io/">Workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, 2024</div>
+            <div><a href="https://ricssworkshop.github.io/">Workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, 2023-2024</div>
         </li> 
-        <li className="text-left li_padding_bottom">
-            <div><a href="https://ricssworkshop.github.io/">Workshop on Re-design Industrial Control Systems with Security (RICSS)</a>, 2023</div>
-        </li>           
     </ol>
 )
 
 const pc = () => (
     <ol > 
         <li className="text-left li_padding_bottom">
+            <div>USENIX Security Symposium, 2025</div>
+        </li> 
+        <li className="text-left li_padding_bottom">
+            <div>Information Security Conference (ISC), 2025</div>
+        </li>
+        <li className="text-left li_padding_bottom">
             <div>ACM Conference on Computer and Communications Security (CCS), 2023-2024</div>
         </li> 
+        <li className="text-left li_padding_bottom">
+            <div>Annual Computer Security Applications Conference (ACSAC), 2024</div>
+        </li> 
+        <li className="text-left li_padding_bottom">
+            <div>EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles (SmartSP), 2024</div>
+        </li> 
+        
         <li className="text-left li_padding_bottom">
             <div>International Conference on Computer Communictions and Networks (ICCCN), 2023</div>
         </li> 

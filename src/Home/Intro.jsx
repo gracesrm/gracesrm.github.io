@@ -24,10 +24,10 @@ const Intro = () => {
                 She earned her Ph.D. from <a href="https://fics.institute.ufl.edu/">FICS</a> at the <a href="https://www.ufl.edu/">University of Florida</a> in 2019 under the supervisory of <a href="https://danielaseabraoliveira.com/">Dr. Daniela Oliveira</a>. 
                 </Container>
                 <Container className="text-left" style={{paddingTop: "0.5em"}}>
-                <b className="h7">Ruimin's research aims at securing ubiquitous systems and devices. </b>
-                Recent work has included the investigation of control logic modification attacks in programmable logic controllers, 
-                proprietary AI privacy protection on mobile devices, and memory management issues in embedded devices. 
+                <b className="h7">Ruimin's research aims at solving security problems in various systems and devices. </b>
+                Her recent work dedicates to advancing security measures in AI applications, embedded applications, which are deployed in mobile platforms, industrial control systems, and so on.               
                 Some of the other research interests include malware detection and mitigation, and software reliability improvement. 
+                Ruimin's work has been supported by NSF and DHS. 
                 </Container>
                 {/* <Container className="text-left" style={{paddingTop: "0.5em"}}>
                 Ruimin is a recipient of the Grace Hopper Award, IEEE S&P Travel Award, GREPSEC II Travel Award, and Wilson and Marie Collins Graduate Fellowship from University of Florida.
@@ -52,7 +52,7 @@ const intro = () => (
         <Row className="h7">Florida International University</Row>
         <Row style={{paddingTop: "1em"}}/>
         <Row><b className="h7">Email:</b> &nbsp;rsun AT fiu dot edu </Row>
-        <Row><b className="h7">Office:</b> &nbsp; CASE 317</Row>
+        <Row><b className="h7">Office:</b> &nbsp; CASE 360</Row>
         <Row><b className="h7">Address:</b> &nbsp; 11200 SW 8th Street, Miami, FL, USA 33199 <br/> </Row>
         <Row style={{paddingTop: "1.5em"}}/>
     </Container>
