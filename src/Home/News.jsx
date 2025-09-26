@@ -16,6 +16,9 @@ const News = () => {
             </Row>
             <ParagraphContainer>
                 <ul className='ul_margin_bottom'>
+                    <li className="text-left">[Sept. 2025] I'm going to host the 3rd <a href="https://ricssworkshop.github.io/">RICSS workshop</a> co-located with CCS 2025. </li>
+                    <li className="text-left">[Aug. 2025] I'm serving on the TPC of NDSS 2026, USENIX SECURITY 2026. </li>
+                    <li className="text-left">[May 2025] I'm serving on the TPC of ACSAC 2025. </li>
                     <li className="text-left">[Dec. 2024] Tushar's poster won the 1st place at the <a href="https://iot.institute.ufl.edu/iot-conference-24/">Warren B. Nelms Annual IoT Conference and the Best Poster Award</a>. </li>
                     <li className="text-left">[Dec. 2024] I gave a signature talk at the <a href="https://iot.institute.ufl.edu/iot-conference-24/">Warren B. Nelms Annual IoT Conference 2024</a> in Gainesville, Florida.</li> 
                     <li className="text-left">[Nov. 2024] I co-chaired the <a href="https://ricssworkshop.github.io/">RICSS workshop</a> co-located with CCS.</li> 
