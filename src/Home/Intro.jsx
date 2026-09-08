@@ -81,7 +81,7 @@ const Intro = () => (
           Ruimin Sun is an Assistant Professor in the{' '}
           <a href={site.schoolUrl}>{site.school}</a> at{' '}
           <a href={site.institutionUrl}>{site.institution}</a> (FIU). Before joining FIU in 2022, she
-          was a Postdoctoral Research Associate at the <a href="https://https://seclab.nu/">SecLab</a> in the Khoury College of Computer Sciences at{' '}
+          was a Postdoctoral Research Associate at the <a href="https://seclab.nu/">SecLab</a> in the Khoury College of Computer Sciences at{' '}
           <a href="https://www.northeastern.edu/">Northeastern University</a>. She received her Ph.D.
           in Electrical and Computer Engineering from the{' '}
           <a href="https://www.ufl.edu/">University of Florida</a> in 2019, advised by{' '}
