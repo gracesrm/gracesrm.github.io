@@ -31,10 +31,10 @@ const renderLinkedTitle = (item) => {
   return content;
 };
 
-const NewsItem = ({ item, compact = false }) => {
+const NewsItem = ({ item, compact = false, showType = true }) => {
   if (!item) return null;
 
-  const compactDate = item.date.slice(0, 7).replace('-', '.');
+  const compactDate = item.date.length === 4 ? item.date : item.date.slice(0, 7).replace('-', '.');
   const embeddedLinkLabels = new Set(
     (item.links || []).filter(({ label }) => item.title.includes(label)).map(({ label }) => label),
   );
@@ -45,9 +45,11 @@ const NewsItem = ({ item, compact = false }) => {
     <article className={className}>
       <div className="news-item__metadata">
         <time dateTime={item.date}>{compactDate}</time>
-        <span className={`content-label content-label--${item.type}`}>
-          {typeLabels[item.type] || typeLabels.other}
-        </span>
+        {showType && (
+          <span className={`content-label content-label--${item.type}`}>
+            {typeLabels[item.type] || typeLabels.other}
+          </span>
+        )}
       </div>
       <div className="news-item__body">
         <span>{renderLinkedTitle(item)}</span>

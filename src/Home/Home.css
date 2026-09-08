@@ -14,7 +14,7 @@
 }
 
 .personal-intro {
-  padding-block: clamp(3rem, 7vw, 6rem);
+  padding-block: var(--space-page-top) var(--space-section);
 }
 
 .personal-intro__identity {
@@ -108,8 +108,8 @@
 }
 
 .personal-intro__socials svg {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: var(--size-social-icon);
+  height: var(--size-social-icon);
   fill: currentColor;
 }
 
@@ -127,15 +127,7 @@
 .home-section,
 .personal-section,
 .lab-subpage__section {
-  padding-block: clamp(3rem, 7vw, 5rem);
-}
-
-.personal-home .personal-intro {
-  padding-block: 3rem 2rem;
-}
-
-.personal-home .personal-section {
-  padding-block: 2rem;
+  padding-block: var(--space-section);
 }
 
 .home-section__heading,
@@ -147,8 +139,7 @@
 
 .home-section__heading h2,
 .personal-section__heading h2,
-.lab-subpage__section > h2,
-.lab-sponsor h2 {
+.lab-subpage__section > h2 {
   margin: 0;
   color: var(--color-heading);
   font-family: var(--font-heading);
@@ -298,7 +289,7 @@
 .home-hero__content {
   width: min(calc(100% - 2rem), var(--content-wide));
   margin-inline: auto;
-  padding-block: clamp(3rem, 7vw, 5.5rem);
+  padding-block: var(--space-page-top) var(--space-section);
 }
 
 .home-hero__content h1 {
@@ -318,7 +309,6 @@
 }
 
 .home-hero__mission {
-  max-width: 48rem;
   margin: 1.5rem 0 0;
   color: var(--color-text);
   font-size: clamp(1.05rem, 2vw, 1.25rem);
@@ -326,10 +316,13 @@
 }
 
 .home-hero__hiring {
-  max-width: 48rem;
   margin: 1.2rem 0 0;
   color: var(--color-muted);
   font-size: 0.92rem;
+}
+
+.home-hero__hiring a {
+  white-space: nowrap;
 }
 
 .lab-member-grid {
@@ -357,7 +350,7 @@
 }
 
 .lab-subpage__header {
-  padding-block: clamp(3rem, 7vw, 5rem) 2rem;
+  padding-block: var(--space-page-top) var(--space-section);
 }
 
 .lab-subpage__header p {
@@ -367,16 +360,45 @@
   line-height: 1.65;
 }
 
-.lab-publication-list,
-.lab-talk-list,
-.lab-sponsor-list {
+.lab-publication-list {
   display: grid;
   gap: 0;
 }
 
-.lab-sponsor {
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--color-border);
+.sponsor-mark-row {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.sponsor-logo {
+  display: block;
+  width: auto;
+  height: 4.5rem;
+  object-fit: contain;
+}
+
+.sponsored-project-list {
+  max-width: var(--reading-width);
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.sponsored-project-list li {
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.sponsored-project-list li + li {
+  margin-top: 0.65rem;
+}
+
+.sponsored-project__source {
+  margin-right: 0.4rem;
+  color: var(--color-heading);
+  font-weight: 700;
 }
 
 .home-news-list {

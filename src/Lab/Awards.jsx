@@ -17,7 +17,7 @@ const Awards = () => (
         description="Selected recognition earned by RiS3 Lab members and research projects."
       />
       <div className="home-news-list">
-        {labAwards.map((item) => <NewsItem item={item} key={item.id} />)}
+        {labAwards.map((item) => <NewsItem item={item} showType={false} key={item.id} />)}
       </div>
     </Container>
   </main>

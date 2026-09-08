@@ -16,6 +16,7 @@ import propedeuticaPdf from '../Downloads/paper/propedeutica_2018.pdf';
 /**
  * @typedef {Object} PublicationAward
  * @property {string} title
+ * @property {string} [shortTitle] - Compact title used in research cards
  * @property {string} [url]
  */
 
@@ -42,6 +43,7 @@ export const publications = [
   {
     id: 'on-device-ml-model-extraction-sok-2024',
     title: 'SoK: All You Need to Know About On-Device ML Model Extraction - The Gap Between Research and Practice.',
+    shortTitle: 'SoK',
     authors: [
       { name: 'Tushar Nayan', personId: 'tushar-nayan' },
       { name: 'Qiming Guo' },
@@ -67,6 +69,7 @@ export const publications = [
   {
     id: 'shift-2024',
     title: 'SHiFT: Semi-hosted Fuzz Testing for Embedded Applications.',
+    shortTitle: 'SHiFT',
     authors: [
       { name: 'Alejandro Mera' },
       { name: 'Changming Liu' },
@@ -90,6 +93,7 @@ export const publications = [
   {
     id: 'privacy-preserving-multimodality-fl-2023',
     title: 'Privacy-Preserving Oriented Design for Multi-Modality Models using FL.',
+    shortTitle: 'Privacy-Preserving Multimodality',
     authors: [
       { name: 'Mohammed Al Duniawi', personId: 'mohammed-al-duniawi' },
       { name: 'Kemal Akkaya' },
@@ -110,6 +114,7 @@ export const publications = [
   {
     id: 'unsafe-behavior-detection-ics-2023',
     title: 'Unsafe Behavior Detection with Adaptive Contrastive Learning in Industrial Control Systems.',
+    shortTitle: 'Adaptive Contrastive Learning',
     authors: [
       { name: 'Zheng, Xu' },
       { name: 'Wang, Tianchun' },
@@ -132,6 +137,7 @@ export const publications = [
   {
     id: 'virtual-plc-honeypot-2023',
     title: 'The Case for Virtual PLC-enabled Honeypot Design.',
+    shortTitle: 'Virtual PLC Honeypot',
     authors: [
       { name: 'Samin Y. Chowdhury', personId: 'samin-yasar-chowdhury' },
       { name: 'Brandon Dudley' },
@@ -160,6 +166,7 @@ export const publications = [
   {
     id: 'shadownet-2023',
     title: 'ShadowNet: A Secure and Efficient On-device Model Inference System for Convolutional Neural Networks.',
+    shortTitle: 'ShadowNet',
     authors: [
       { name: 'Zhichuang Sun' },
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
@@ -175,7 +182,7 @@ export const publications = [
     type: 'conference',
     status: 'published',
     summary: 'Protects on-device CNN inference efficiently.',
-    subdirectionIds: ['on-device-ml-security', 'secure-ai-inference'],
+    subdirectionIds: ['secure-ai-inference'],
     links: [
       { type: 'pdf', label: 'PDF', url: 'https://drive.google.com/file/d/1SnGFwvKgPgpy-6q29DWYoMPVjqLLMXNE/view?usp=sharing' },
     ],
@@ -183,6 +190,7 @@ export const publications = [
   {
     id: 'decentralizing-cps-resilience-2023',
     title: 'Decentralizing Cyber Physical Systems for Resilience: An Innovative Case Study from A Cybersecurity Perspective.',
+    shortTitle: 'CPS Resilience',
     authors: [
       { name: 'Xueping Liang' },
       { name: 'Charalambos Konstantinou' },
@@ -205,6 +213,7 @@ export const publications = [
   {
     id: 'online-binary-models-2022',
     title: 'Online Binary Models are Promising for Distinguishing Temporally Consistent Computer Usage Profiles.',
+    shortTitle: 'Online Binary Models',
     authors: [
       { name: 'Giovanini, L.' },
       { name: 'Ceschin, F.' },
@@ -233,6 +242,7 @@ export const publications = [
   {
     id: 'd-box-2022',
     title: 'D-Box: DMA-enabled compartmentalization for embedded applications.',
+    shortTitle: 'D-Box',
     authors: [
       { name: 'Alejandro Mera' },
       { name: 'Yi Hui Chen' },
@@ -256,6 +266,7 @@ export const publications = [
   {
     id: 'challenges-pitfalls-malware-research-2021',
     title: 'Challenges and Pitfalls in Malware Research.',
+    shortTitle: 'Challenges and Pitfalls',
     authors: [
       { name: 'Marcus Botacin' },
       { name: 'Fabricio Ceschin' },
@@ -278,6 +289,7 @@ export const publications = [
   {
     id: 'ics-attacks-defenses-sok-2021',
     title: 'SoK: Attacks on Industrial Control Logic and Formal Verification-Based Defenses.',
+    shortTitle: 'SoK: ICS Attacks and Defenses',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Alejandro Mera' },
@@ -300,6 +312,7 @@ export const publications = [
   {
     id: 'mind-your-weights-2021',
     title: 'Mind Your Weight(s): A Large-scale Study on Insufficient Machine Learning Model Protection in Mobile Apps.',
+    shortTitle: 'Mind Your Weight(s)',
     authors: [
       { name: 'Zhichuang Sun' },
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
@@ -322,6 +335,7 @@ export const publications = [
   {
     id: 'praise-for-defensive-programming-2020',
     title: 'A Praise for Defensive Programming - Leveraging Uncertainty for Effective Malware Mitigation.',
+    shortTitle: 'Defensive Programming',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Marcus Botacin' },
@@ -348,6 +362,7 @@ export const publications = [
   {
     id: 'mitos-2020',
     title: 'MITOS: Optimal Propagation Decisioning in Dynamic Information Flow Tracking.',
+    shortTitle: 'MITOS',
     authors: [
       { name: 'Nikolaos Sapountzis' },
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
@@ -371,6 +386,7 @@ export const publications = [
   {
     id: 'ddift-2019',
     title: 'DDIFT: Decentralized Dynamic Information Flow Tracking for IoT Privacy and Security.',
+    shortTitle: 'DDIFT',
     authors: [
       { name: 'Nikolaos Sapountzis' },
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
@@ -391,6 +407,7 @@ export const publications = [
   {
     id: 'propedeutica-2021',
     title: 'Learning Fast and Slow: PROPEDEUTICA for Real-time Malware Detection.',
+    shortTitle: 'PROPEDEUTICA',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Xiaoyong Yuan' },
@@ -416,6 +433,7 @@ export const publications = [
   {
     id: 'dose-makes-the-poision-2017',
     title: 'The Dose Makes the Poision - Leveraging Uncertainty for Effective Malware Detection.',
+    shortTitle: 'The Dose Makes the Poison',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Xiaoyong Yuan' },
@@ -441,6 +459,7 @@ export const publications = [
   {
     id: 'bear-2016',
     title: 'Bear: A Framework for Understanding Application Sensitivity to OS (Mis)Behavior.',
+    shortTitle: 'Bear',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Andrew Lee' },
@@ -464,6 +483,7 @@ export const publications = [
   {
     id: 'unpredictability-as-deception-2015',
     title: 'The Case for Unpredictability as Deception as OS Features.',
+    shortTitle: 'Unpredictability as Deception',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Don Porter' },
@@ -485,6 +505,7 @@ export const publications = [
   {
     id: 'less-predictable-os-behavior-2015',
     title: 'The Case for Less Predictable Operating System Behavior.',
+    shortTitle: 'Less Predictable OS Behavior',
     authors: [
       { name: 'Ruimin Sun', personId: 'ruimin-sun' },
       { name: 'Don Porter' },

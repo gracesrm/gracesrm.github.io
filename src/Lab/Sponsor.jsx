@@ -5,7 +5,9 @@ import '../Home/Home.css';
 
 const sponsors = [
   {
+    shortName: 'NSF',
     name: 'National Science Foundation (NSF)',
+    logo: 'https://www.nsf.gov/themes/custom/nsf_theme/logo-200x200.png',
     projects: [
       {
         title: 'Secure Machine Learning Inference in IoT-driven Analytical Scientific Infrastructure',
@@ -19,7 +21,9 @@ const sponsors = [
     ],
   },
   {
+    shortName: 'DHS',
     name: 'Department of Homeland Security (DHS)',
+    logo: 'https://www.dhs.gov/themes/custom/dhs_uswds/logo.svg',
     projects: [
       {
         title: 'ADvanced education and research for Machine learning-driven critical Infrastructure REsilience (ADMIRE) Center',
@@ -36,21 +40,24 @@ const Sponsor = () => (
         title="Sponsor"
         description="RiS3 Lab research has been supported by NSF and DHS."
       />
-      <div className="lab-sponsor-list">
+      <div className="sponsor-mark-row" aria-label="Research sponsors">
         {sponsors.map((sponsor) => (
-          <section className="content-card lab-sponsor" key={sponsor.name}>
-            <h2>{sponsor.name}</h2>
-            <ul>
-              {sponsor.projects.map((project) => (
-                <li key={project.title}>
-                  {project.url ? <a href={project.url}>{project.title}</a> : project.title}
-                  <span>{project.program}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
+          <img
+            className="sponsor-logo"
+            src={sponsor.logo}
+            alt={`${sponsor.name} logo`}
+            key={sponsor.shortName}
+          />
         ))}
       </div>
+      <ul className="sponsored-project-list">
+        {sponsors.flatMap((sponsor) => sponsor.projects.map((project) => (
+          <li key={project.title}>
+            <span className="sponsored-project__source">{sponsor.shortName} · {project.program}</span>
+            {project.url ? <a href={project.url}>{project.title}</a> : project.title}
+          </li>
+        )))}
+      </ul>
     </Container>
   </main>
 );

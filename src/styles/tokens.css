@@ -3,6 +3,9 @@
   --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-metadata: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --font-size-page-title: clamp(1.1rem, 2vw, 1.45rem);
+  --space-page-top: 3rem;
+  --space-section: 2rem;
+  --size-social-icon: 1.2rem;
   --content-width: 1140px;
   --content-wide: var(--content-width);
   --reading-width: 58rem;

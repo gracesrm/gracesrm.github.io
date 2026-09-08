@@ -26,7 +26,7 @@ export const researchDirections = [
     subdirections: [
       {
         id: 'on-device-ml-security',
-        title: 'On-device ML Security',
+        title: 'On-device ML Extraction',
         summary: 'Discovering, extracting, and protecting deployed models.',
         keywords: ['on-device ML', 'model extraction', 'edge AI'],
       },
