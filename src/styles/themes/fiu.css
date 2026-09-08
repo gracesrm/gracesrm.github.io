@@ -1,0 +1,22 @@
+[data-institution="fiu"] {
+  --color-brand-primary: #081e3f;
+  --color-brand-primary-hover: #103158;
+  --color-brand-accent: #b6862c;
+  --color-brand-accent-dark: #72500f;
+  --color-accent: var(--color-brand-accent);
+  --color-accent-dark: var(--color-brand-accent-dark);
+  --color-text: #20262e;
+  --color-text-muted: #5d6670;
+  --color-muted: var(--color-text-muted);
+  --color-heading: #081e3f;
+  --color-link: #72500f;
+  --color-link-hover: #081e3f;
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f4f6f8;
+  --color-border: #dfe3e8;
+  --color-focus: #b6862c;
+  --color-on-primary: #ffffff;
+  --color-on-primary-muted: #d8e0e8;
+  --color-on-accent: #ffffff;
+}

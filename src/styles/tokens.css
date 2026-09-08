@@ -1,0 +1,13 @@
+:root {
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-metadata: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --font-size-page-title: clamp(1.1rem, 2vw, 1.45rem);
+  --content-width: 1140px;
+  --content-wide: var(--content-width);
+  --reading-width: 58rem;
+  --radius-small: 0.2rem;
+  --radius-sm: var(--radius-small);
+  --radius-medium: 0.35rem;
+  --transition-fast: 150ms ease;
+}

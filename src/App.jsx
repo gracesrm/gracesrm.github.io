@@ -2,31 +2,45 @@ import React from 'react';
 import NavBar from './Header';
 import Body from './Body';
 import Home from './Home';
-import Research from './Research';
-import Teaching from './Teaching';
-import Service from './Service';
-import Students from './Students';
-import Courses from './Courses';
+import Lab from './Lab';
+import Awards from './Lab/Awards';
+import Publication from './Lab/Publication';
+import Sponsor from './Lab/Sponsor';
+import Talks from './Lab/Talks';
+import Team from './Lab/Team';
+import { site } from './content/site';
 import {
   BrowserRouter as Router,
+  Redirect,
   Switch,
   Route,
 } from "react-router-dom";
 import './App.css';
+import './styles/tokens.css';
+import './styles/brands.css';
+import './styles/themes/fiu.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-institution={site.theme}>
       <Router>
       <NavBar/>
         <Body>
           <Switch>
-            <Route exact path="/" component={Home}></Route>
-            <Route exact path="/research" component={Research}></Route>
-            <Route exact path="/teaching" component={Teaching}></Route>
-            <Route exact path="/service" component={Service}></Route>
-            <Route exact path="/students" component={Students}></Route>
-            <Route exact path="/courses" component={Courses}></Route>
+            <Route exact path="/home" component={Home}></Route>
+            <Route exact path="/lab" component={Lab}></Route>
+            <Route exact path="/team" component={Team}></Route>
+            <Route exact path="/publication" component={Publication}></Route>
+            <Route exact path="/sponsor" component={Sponsor}></Route>
+            <Route exact path="/awards" component={Awards}></Route>
+            <Route exact path="/talks" component={Talks}></Route>
+            <Redirect exact from="/" to="/home" />
+            <Redirect exact from="/research" to="/home#research" />
+            <Redirect exact from="/teaching" to="/home#teaching" />
+            <Redirect exact from="/service" to="/home#service" />
+            <Redirect exact from="/students" to="/team" />
+            <Redirect exact from="/publications" to="/publication" />
+            <Redirect to="/home" />
           </Switch>
         </Body>
       </Router>

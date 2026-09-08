@@ -1,49 +1,44 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Paragraph from '../ParagraphContainer';
 // import ParagraphContainer from '../ParagraphContainer';
 import '../AppVanillaHtml.css';
 
 
-const Service = () => (
-    <Container>
-
-        <Row 
-            id="chair"
-            className="justify-content-center row_padding_top">
-            <h3>Chair/Co-Chair</h3>
-        </Row>
-        <Paragraph>{chair()}</Paragraph>
-        <Row 
-            id="patents"
-            className="justify-content-center row_padding_top">
-            <h3>Guest Editor</h3>
-        </Row>
-        <Paragraph>{guest()}</Paragraph>
-
-        <Row 
-            id="panel"
-            className="justify-content-center row_padding_top">
-            <h3>Panelist</h3>
-        </Row>
-        <Paragraph>{panel()}</Paragraph>
-        <Row 
-            id="program committee"
-            className="justify-content-center row_padding_top">
-            <h3>Program Committee</h3>
-        </Row>
-        <Paragraph>{pc()}</Paragraph>
-
-        <Row 
-            id="External Reviewer"
-            className="justify-content-center row_padding_top">
-            <h3>Reviewer</h3>
-        </Row>
-        <Paragraph>{reviewer()}</Paragraph>
-
-    </Container>
+const serviceContent = () => (
+  <>
+    <section className="service-group">
+      <h3>Chair/Co-Chair</h3>
+      {chair()}
+    </section>
+    <section className="service-group">
+      <h3>Guest Editor</h3>
+      {guest()}
+    </section>
+    <section className="service-group">
+      <h3>Panelist</h3>
+      {panel()}
+    </section>
+    <section className="service-group">
+      <h3>Program Committee</h3>
+      {pc()}
+    </section>
+    <section className="service-group">
+      <h3>Reviewer</h3>
+      {reviewer()}
+    </section>
+  </>
 );
+
+const Service = ({ embedded = false }) => {
+  if (embedded) return <div className="embedded-service">{serviceContent()}</div>;
+
+  return (
+    <Container>
+      <Paragraph>{serviceContent()}</Paragraph>
+    </Container>
+  );
+};
 
 
 const guest = () => (
@@ -145,5 +140,4 @@ const reviewer = () => (
 )
 
 export default Service;
-
 

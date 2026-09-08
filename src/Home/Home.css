@@ -1,0 +1,410 @@
+.home-page,
+.lab-page,
+.lab-subpage {
+  background: var(--color-background);
+}
+
+.personal-intro,
+.home-section,
+.personal-section,
+.lab-subpage__header,
+.lab-subpage__section {
+  width: min(calc(100% - 2rem), var(--content-wide));
+  margin-inline: auto;
+}
+
+.personal-intro {
+  padding-block: clamp(3rem, 7vw, 6rem);
+}
+
+.personal-intro__identity {
+  align-items: center;
+}
+
+.personal-intro__photo {
+  width: 100%;
+  max-width: 14rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.personal-intro__identity h1,
+.home-hero__content h1,
+.lab-subpage__header h1 {
+  margin: 0;
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-weight: 750;
+  letter-spacing: -0.035em;
+  font-size: var(--font-size-page-title);
+}
+
+.personal-intro__position {
+  max-width: 44rem;
+  margin: 0.65rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.personal-intro__position span {
+  display: block;
+}
+
+.personal-intro__contact {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 0.35rem 1.1rem;
+  margin-top: 1.25rem;
+  font-family: var(--font-metadata);
+  font-size: 0.83rem;
+}
+
+.personal-intro__address {
+  grid-column: 1 / -1;
+}
+
+.personal-intro__contact > div {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.personal-intro__contact dt,
+.personal-intro__contact dd {
+  margin: 0;
+}
+
+.personal-intro__contact dt {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+.personal-intro__socials {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 0.9rem;
+}
+
+.personal-intro__socials a {
+  display: inline-flex;
+  transition: opacity var(--transition-fast);
+}
+
+.personal-intro__socials a:hover {
+  opacity: 0.7;
+}
+
+.personal-intro__socials .personal-intro__social-link--linkedin {
+  color: var(--color-linkedin);
+}
+
+.personal-intro__socials .personal-intro__social-link--x {
+  color: var(--color-x);
+}
+
+.personal-intro__socials .personal-intro__social-link--github {
+  color: var(--color-github);
+}
+
+.personal-intro__socials svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
+.personal-intro__bio {
+  max-width: 49rem;
+  margin-top: 1.75rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.personal-intro__bio p:first-child {
+  margin-top: 0;
+}
+
+.home-section,
+.personal-section,
+.lab-subpage__section {
+  padding-block: clamp(3rem, 7vw, 5rem);
+}
+
+.personal-home .personal-intro {
+  padding-block: 3rem 2rem;
+}
+
+.personal-home .personal-section {
+  padding-block: 2rem;
+}
+
+.home-section__heading,
+.personal-section__heading,
+.lab-subpage__header,
+.lab-subpage__section > h2 {
+  margin-bottom: 2rem;
+}
+
+.home-section__heading h2,
+.personal-section__heading h2,
+.lab-subpage__section > h2,
+.lab-sponsor h2 {
+  margin: 0;
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-size: var(--font-size-page-title);
+  font-weight: 720;
+  letter-spacing: -0.025em;
+}
+
+.personal-section--tinted,
+.home-section--tinted {
+  width: 100%;
+  padding-inline: max(1rem, calc((100vw - var(--content-wide)) / 2));
+  background: var(--color-surface-muted);
+}
+
+.personal-direction-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.35rem 3rem;
+  max-width: 58rem;
+}
+
+.personal-direction-list__item {
+  display: block;
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.personal-direction-list strong,
+.personal-direction-list span {
+  display: block;
+}
+
+.personal-intro__funder {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+.personal-direction-list span {
+  margin-top: 0.3rem;
+  color: var(--color-muted);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.personal-section__action,
+.home-section__action {
+  margin-top: 2rem;
+}
+
+.home-text-button {
+  display: inline-block;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--color-brand-primary);
+  border-radius: var(--radius-sm);
+  background: var(--color-brand-primary);
+  color: var(--color-on-primary) !important;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.home-text-button:hover {
+  border-color: var(--color-brand-primary-hover);
+  background: var(--color-brand-primary-hover);
+  color: var(--color-on-primary) !important;
+}
+
+.embedded-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.academic-course-list {
+  max-width: 58rem;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.academic-course-list li {
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.academic-course-list li + li {
+  margin-top: 0.85rem;
+}
+
+.academic-course-list strong,
+.academic-course-list span {
+  display: block;
+}
+
+.academic-course-list strong {
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.4;
+}
+
+.academic-course-list span {
+  margin-top: 0.2rem;
+  color: var(--color-muted);
+}
+
+.embedded-service {
+  display: block;
+  max-width: 58rem;
+}
+
+.service-group + .service-group {
+  margin-top: 1.5rem;
+}
+
+.service-group h3 {
+  margin: 0 0 0.45rem;
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+  font-size: 1.08rem;
+  font-weight: 650;
+}
+
+.service-group ol,
+.service-group ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.service-group li {
+  margin: 0.22rem 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.home-hero {
+  background: var(--color-surface-muted);
+}
+
+.home-hero__content {
+  width: min(calc(100% - 2rem), var(--content-wide));
+  margin-inline: auto;
+  padding-block: clamp(3rem, 7vw, 5.5rem);
+}
+
+.home-hero__content h1 {
+  white-space: nowrap;
+}
+
+.home-hero__expansion {
+  color: var(--color-brand-primary);
+  font-weight: 650;
+}
+
+.lab-acronym__mark {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
+.home-hero__mission {
+  max-width: 48rem;
+  margin: 1.5rem 0 0;
+  color: var(--color-text);
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.6;
+}
+
+.home-hero__hiring {
+  max-width: 48rem;
+  margin: 1.2rem 0 0;
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
+.lab-member-grid {
+  row-gap: 1rem;
+}
+
+.lab-member-grid__column {
+  display: flex;
+}
+
+.lab-member-grid__column .person-card {
+  width: 100%;
+}
+
+.lab-member-column h2,
+.lab-subpage__header h1 {
+  color: var(--color-heading);
+  font-family: var(--font-heading);
+}
+
+.lab-member-column h2 {
+  margin: 0 0 1rem;
+  padding-bottom: 0.55rem;
+  font-size: var(--font-size-page-title);
+}
+
+.lab-subpage__header {
+  padding-block: clamp(3rem, 7vw, 5rem) 2rem;
+}
+
+.lab-subpage__header p {
+  max-width: 46rem;
+  margin: 0.8rem 0 0;
+  color: var(--color-muted);
+  line-height: 1.65;
+}
+
+.lab-publication-list,
+.lab-talk-list,
+.lab-sponsor-list {
+  display: grid;
+  gap: 0;
+}
+
+.lab-sponsor {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.home-news-list {
+  display: grid;
+  gap: 0;
+}
+
+@media (max-width: 767px) {
+  .personal-intro__photo {
+    width: min(12rem, 55vw);
+  }
+
+  .personal-direction-list {
+    grid-template-columns: 1fr;
+  }
+
+  .personal-intro__contact {
+    grid-template-columns: 1fr;
+  }
+
+  .personal-intro__address {
+    grid-column: auto;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .home-hero__content h1 {
+    font-size: 0.95rem;
+  }
+}
