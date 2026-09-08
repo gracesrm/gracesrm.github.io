@@ -9,9 +9,9 @@ import './Home.css';
 const profile = people.find(({ id }) => id === 'ruimin-sun');
 
 const socialProfiles = [
-  { label: 'LinkedIn', url: '', icon: 'linkedin' },
-  { label: 'X', url: '', icon: 'x' },
-  { label: 'GitHub', url: '', icon: 'github' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ruimin-sun-99b42674/', icon: 'linkedin' },
+  { label: 'X', url: 'https://x.com/gracesrm', icon: 'x' },
+  { label: 'GitHub', url: 'https://github.com/sys-ris3', icon: 'github' },
 ];
 
 const SocialIcon = ({ icon }) => {
@@ -64,9 +64,8 @@ const Intro = () => (
               <a
                 className={`personal-intro__social-link personal-intro__social-link--${icon}`}
                 href={url}
-                aria-label={`${label} profile link coming soon`}
-                title={`${label} link coming soon`}
-                onClick={(event) => !url && event.preventDefault()}
+                aria-label={`${label} profile`}
+                title={`${label} profile`}
                 key={label}
               >
                 <SocialIcon icon={icon} />

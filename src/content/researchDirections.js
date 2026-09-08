@@ -57,8 +57,8 @@ export const researchDirections = [
   },
   {
     id: 'embedded-iot-security',
-    title: 'System and embedded security',
-    shortTitle: 'System and embedded security',
+    title: 'System and Embedded Security',
+    shortTitle: 'System and Embedded Security',
     summary: 'Analysis and isolation techniques for embedded software, firmware, and connected devices.',
     subdirections: [
       {

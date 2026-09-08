@@ -16,8 +16,14 @@ test('shows current-member and alumni highlights', () => {
 
   const mohammedCard = screen.getByText('Mohammed Al Duniawi').closest('.person-card');
   const saminCard = screen.getByText('Samin Yasar Chowdhury').closest('.person-card');
+  const tusharCard = screen.getByText('Tushar Nayan').closest('.person-card');
   const lousindyEntry = screen.getByText('Lousindy Mitton').closest('li');
 
+  expect(tusharCard.querySelector('img')).toHaveAttribute('alt', 'Portrait of Tushar Nayan');
+  expect(screen.getByLabelText("Visit Tushar Nayan's homepage")).toHaveAttribute(
+    'href',
+    'https://tusharnayan.netlify.app/',
+  );
   expect(mohammedCard).toHaveTextContent('Provost Degree Completion Tuition Fellowship');
   expect(saminCard).toHaveTextContent("Fall'22 - present");
   expect(lousindyEntry).toHaveTextContent("Fall'24 - Fall'25");

@@ -19,7 +19,7 @@ test('renders the curated research groups without priority labels and preserves 
   expect(Array.from(container.querySelectorAll('.research-direction-card__header h3')).map(({ textContent }) => textContent)).toEqual([
     'On-Device AI Security',
     'Cyber-Physical & Domain-Specific Security',
-    'System and embedded security',
+    'System and Embedded Security',
   ]);
   expect(screen.queryByText('Earlier Work: Adaptive Defense & System Resilience')).not.toBeInTheDocument();
   expect(screen.queryByText('Featured')).not.toBeInTheDocument();

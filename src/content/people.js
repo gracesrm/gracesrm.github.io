@@ -1,4 +1,5 @@
 import ruiminPhoto from '../Assets/profile_s.jpg';
+import tusharPhoto from '../Assets/tushar-nayan.jpg';
 
 /**
  * @typedef {Object} ContentLink
@@ -116,7 +117,14 @@ export const people = [
         ],
       },
     ],
-    links: [],
+    photo: tusharPhoto,
+    links: [
+      {
+        label: 'Homepage',
+        url: 'https://tusharnayan.netlify.app/',
+        type: 'homepage',
+      },
+    ],
     displayOrder: 2,
   },
   {
