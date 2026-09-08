@@ -4,7 +4,7 @@ import { NewsItem } from '../components';
 import { news } from '../content/news';
 import './Home.css';
 
-const News = ({ limit = 6 }) => {
+const News = ({ limit = 10 }) => {
   const [showAll, setShowAll] = useState(false);
   const visibleNews = showAll ? news : news.slice(0, limit);
   const hasMore = news.length > limit;
@@ -15,9 +15,9 @@ const News = ({ limit = 6 }) => {
         <div className="home-section__heading">
           <h2 id="news-title">News</h2>
         </div>
-        <div className="home-news-list" id="home-news-list">
-          {visibleNews.map((item) => <NewsItem item={item} key={item.id} />)}
-        </div>
+        <ul className="home-news-list" id="home-news-list">
+          {visibleNews.map((item) => <NewsItem item={item} showType={false} key={item.id} />)}
+        </ul>
         {hasMore && (
           <div className="home-section__action">
             <button

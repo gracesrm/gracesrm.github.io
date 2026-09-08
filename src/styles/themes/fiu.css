@@ -9,12 +9,14 @@
   --color-text-muted: #5d6670;
   --color-muted: var(--color-text-muted);
   --color-heading: #081e3f;
-  --color-link: #72500f;
-  --color-link-hover: #081e3f;
+  --color-link: #005c99;
+  --color-link-hover: #003b63;
+  --color-link-underline: #6b9ab8;
   --color-background: #ffffff;
   --color-surface: #ffffff;
   --color-surface-muted: #f4f6f8;
   --color-border: #dfe3e8;
+  --color-border-subtle: #e7eaee;
   --color-focus: #b6862c;
   --color-on-primary: #ffffff;
   --color-on-primary-muted: #d8e0e8;

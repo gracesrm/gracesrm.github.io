@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { NavLink, useLocation } from 'react-router-dom';
 import './App.css';
 
-const labPaths = ['/lab', '/team', '/publication', '/sponsor', '/awards', '/talks'];
+const labPaths = ['/lab', '/team', '/publication', '/sponsor', '/awards', '/resources', '/talks'];
 
 const Navigation = () => {
   const { pathname } = useLocation();
@@ -25,7 +25,7 @@ const Navigation = () => {
               <Nav.Link className="site-nav-link" as={NavLink} to="/publication"><b>Publication</b></Nav.Link>
               <Nav.Link className="site-nav-link" as={NavLink} to="/sponsor"><b>Sponsor</b></Nav.Link>
               <Nav.Link className="site-nav-link" as={NavLink} to="/awards"><b>Awards</b></Nav.Link>
-              <Nav.Link className="site-nav-link" as={NavLink} to="/talks"><b>Talks</b></Nav.Link>
+              <Nav.Link className="site-nav-link" as={NavLink} to="/resources"><b>Resources</b></Nav.Link>
             </Nav>
           ) : (
             <Nav className="ml-auto">

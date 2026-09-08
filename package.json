@@ -18,9 +18,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "npm run validate-content",
     "build": "react-scripts build",
     "postbuild": "echo 'www.ruiminsun.com' > ./build/CNAME",
     "test": "react-scripts test",
+    "validate-content": "react-scripts test --watchAll=false --runTestsByPath src/content/validateContent.test.js",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"

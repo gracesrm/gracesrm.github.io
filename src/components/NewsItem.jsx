@@ -14,18 +14,23 @@ const typeLabels = {
 };
 
 const renderLinkedTitle = (item) => {
-  const availableLinks = (item.links || [])
-    .map((link) => ({ ...link, start: item.title.indexOf(link.label) }))
+  const formattedRanges = [
+    ...(item.links || []).map((link) => ({ ...link, format: 'link' })),
+    ...(item.emphasisLabels || []).map((label) => ({ label, format: 'emphasis' })),
+  ]
+    .map((range) => ({ ...range, start: item.title.indexOf(range.label) }))
     .filter(({ start }) => start >= 0)
     .sort((first, second) => first.start - second.start);
   const content = [];
   let cursor = 0;
 
-  availableLinks.forEach((link) => {
-    if (link.start < cursor) return;
-    if (link.start > cursor) content.push(item.title.slice(cursor, link.start));
-    content.push(<a href={link.url} key={`${item.id}-${link.label}-${link.start}`}>{link.label}</a>);
-    cursor = link.start + link.label.length;
+  formattedRanges.forEach((range) => {
+    if (range.start < cursor) return;
+    if (range.start > cursor) content.push(item.title.slice(cursor, range.start));
+    content.push(range.format === 'link'
+      ? <a href={range.url} key={`${item.id}-${range.label}-${range.start}`}>{range.label}</a>
+      : <em key={`${item.id}-${range.label}-${range.start}`}>{range.label}</em>);
+    cursor = range.start + range.label.length;
   });
   if (cursor < item.title.length) content.push(item.title.slice(cursor));
   return content;
@@ -40,20 +45,19 @@ const NewsItem = ({ item, compact = false, showType = true }) => {
   );
   const additionalLinks = (item.links || []).filter(({ label }) => !embeddedLinkLabels.has(label));
   const className = compact ? 'news-item news-item--compact' : 'news-item';
+  const dateLabel = item.dateLabel || compactDate;
 
   return (
-    <article className={className}>
-      <div className="news-item__metadata">
-        <time dateTime={item.date}>{compactDate}</time>
+    <li className={className}>
+      <time className="news-item__metadata" dateTime={item.date}>({dateLabel})</time>{' '}
+      <span className="news-item__body">
         {showType && (
           <span className={`content-label content-label--${item.type}`}>
             {typeLabels[item.type] || typeLabels.other}
           </span>
         )}
-      </div>
-      <div className="news-item__body">
         <span>{renderLinkedTitle(item)}</span>
-        {!compact && item.summary && <p>{item.summary}</p>}
+        {!compact && item.summary && <span className="news-item__summary">{item.summary}</span>}
         {additionalLinks.length > 0 && (
           <span className="content-links news-item__links">
             {additionalLinks.map((link) => (
@@ -61,8 +65,8 @@ const NewsItem = ({ item, compact = false, showType = true }) => {
             ))}
           </span>
         )}
-      </div>
-    </article>
+      </span>
+    </li>
   );
 };
 

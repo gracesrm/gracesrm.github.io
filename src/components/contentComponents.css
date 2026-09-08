@@ -1,6 +1,6 @@
 .research-direction-stack {
   display: grid;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .content-card,
@@ -12,11 +12,15 @@
 }
 
 .research-direction-card {
-  padding: clamp(1.25rem, 3vw, 2rem);
+  padding: 1.25rem;
+  border-color: var(--color-border-subtle);
 }
 
 .research-direction-card__header {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
 }
 
 .research-direction-card__header h3,
@@ -55,11 +59,6 @@
   font-weight: 650;
 }
 
-.research-subdirection__publications a {
-  color: var(--color-link);
-  font-weight: 700;
-}
-
 .research-publication__meta {
   color: var(--color-accent-dark);
   font-weight: 600;
@@ -83,6 +82,18 @@
   text-transform: uppercase;
 }
 
+a.content-label,
+a.content-label:visited {
+  color: var(--color-link);
+  font-weight: 600;
+  text-decoration-color: var(--color-link-underline);
+}
+
+a.content-label:hover {
+  color: var(--color-link-hover);
+  text-decoration-color: currentColor;
+}
+
 .content-links {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +103,6 @@
 
 .content-link {
   font-size: 0.82rem;
-  font-weight: 700;
 }
 
 .person-card {
@@ -111,6 +121,7 @@
   z-index: 1;
   inset: 0;
   border-radius: inherit;
+  text-decoration: none;
 }
 
 .person-card__identity {
@@ -162,6 +173,7 @@
 }
 
 .person-card__highlight {
+  color: var(--color-accent-dark);
   font-size: 0.87rem;
 }
 
@@ -169,16 +181,6 @@
   margin: 0.55rem 0 0;
   padding: 0;
   list-style: none;
-}
-
-.person-card__contributions h4 {
-  margin: 0 0 0.3rem;
-  color: var(--color-heading);
-  font-family: var(--font-metadata);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .person-card__contributions ul {
@@ -190,14 +192,12 @@
 .person-card__contribution {
   color: var(--color-muted);
   font-size: 0.78rem;
+  font-weight: 700;
   line-height: 1.4;
 }
 
-.person-card__contribution::before {
+.person-card__contribution-title {
   color: var(--color-accent-dark);
-  content: "+ ";
-  font-family: var(--font-metadata);
-  font-weight: 700;
 }
 
 .person-card .content-links,
@@ -208,12 +208,11 @@
 }
 
 .publication-item {
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--color-border);
+  padding: 0;
 }
 
-.publication-item:first-child {
-  border-top: 1px solid var(--color-border);
+.publication-item + .publication-item {
+  margin-top: 1.25rem;
 }
 
 .publication-item h3 {
@@ -239,49 +238,58 @@
   line-height: 1.45;
 }
 
-.publication-item__awards {
-  margin-top: 0.55rem;
+.publication-item__award,
+a.publication-item__award,
+a.publication-item__award:visited {
+  margin-left: 0.35rem;
+  padding: 0.08em 0.35em;
+  border-radius: var(--radius-sm);
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-family: var(--font-metadata);
+  font-size: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+a.publication-item__award:hover {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  text-decoration: none;
 }
 
 .news-item {
-  display: grid;
-  grid-template-columns: 8rem minmax(0, 1fr);
-  gap: 1.5rem;
-  padding: 1rem 0;
-  border-bottom: 1px solid var(--color-border);
+  padding-left: 0.2rem;
+  color: var(--color-text);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
-.news-item:first-child {
-  border-top: 1px solid var(--color-border);
+.news-item + .news-item {
+  margin-top: 0.22rem;
 }
 
 .news-item__metadata {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
   color: var(--color-muted);
   font-family: var(--font-metadata);
-  font-size: 0.69rem;
-  line-height: 1.4;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
-.news-item__body h3 {
-  margin: 0;
-  color: var(--color-heading);
-  font-family: var(--font-heading);
-  font-size: 0.98rem;
-  line-height: 1.45;
-}
-
-.news-item__body p {
-  margin: 0.32rem 0 0;
+.news-item__summary {
+  display: block;
+  margin-top: 0.32rem;
   color: var(--color-muted);
   font-size: 0.88rem;
   line-height: 1.5;
 }
 
 .news-item__links {
-  margin-top: 0.35rem;
+  display: inline;
+  margin: 0 0 0 0.35rem;
 }
 
 @media (max-width: 767px) {
@@ -298,13 +306,4 @@
     height: 4.25rem;
   }
 
-  .news-item {
-    grid-template-columns: 1fr;
-    gap: 0.45rem;
-  }
-
-  .news-item__metadata {
-    flex-direction: row;
-    gap: 0.75rem;
-  }
 }

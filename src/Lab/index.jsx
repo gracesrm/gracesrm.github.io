@@ -9,6 +9,7 @@ import { site } from '../content/site';
 import '../Home/Home.css';
 
 const prioritizedDirections = [...researchDirections]
+  .filter((direction) => !direction.hidden)
   .sort((first, second) => first.displayOrder - second.displayOrder);
 
 const Lab = () => (
@@ -26,7 +27,9 @@ const Lab = () => (
             </span>
           </h1>
           <p className="home-hero__mission">
-            Practical security research for on-device AI, embedded systems, and cyber-physical domains.
+            RiS3 Lab focuses on securing AI-enabled and cyber-physical systems at the boundary between
+            software, hardware, and the physical world, with current emphasis on on-device AI security
+            and domain-aware system security.
           </p>
           <p className="home-hero__hiring">
             <strong>We are recruiting.</strong> Students interested in systems, security, and AI can
@@ -49,7 +52,6 @@ const Lab = () => (
             <ResearchDirectionCard
               direction={direction}
               publications={publications}
-              publicationLimit={2}
               key={direction.id}
             />
           ))}
@@ -60,7 +62,7 @@ const Lab = () => (
       </Container>
     </section>
 
-    <News limit={6} />
+    <News limit={10} />
   </main>
 );
 

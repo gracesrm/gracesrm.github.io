@@ -78,16 +78,32 @@ const Intro = () => (
 
       <div className="personal-intro__bio">
         <p>
-          Ruimin Sun is an Assistant Professor at{' '}
-          <a href={site.institutionUrl}>{site.institution}</a>. Her research focuses on security for
-          AI-enabled, embedded, and cyber-physical systems, with additional interests in malware
-          defense and software resilience. Before joining FIU in 2022, she was a postdoctoral
-          researcher at <a href="https://www.northeastern.edu/">Northeastern University</a>. She
-          received her Ph.D. from the <a href="https://www.ufl.edu/">University of Florida</a> in
-          2019, advised by <a href="https://danielaseabraoliveira.com/">Dr. Daniela Oliveira</a>.
-          Her work has been supported by <span className="personal-intro__funder">NSF</span> and{' '}
-          <span className="personal-intro__funder">DHS</span>.
+          <strong className="personal-intro__bio-label">Brief Biography.</strong>{' '}
+          Ruimin Sun is an Assistant Professor in the{' '}
+          <a href={site.schoolUrl}>{site.school}</a> at{' '}
+          <a href={site.institutionUrl}>{site.institution}</a> (FIU). Before joining FIU in 2022, she
+          was a Postdoctoral Research Associate at the <a href="https://https://seclab.nu/">SecLab</a> in the Khoury College of Computer Sciences at{' '}
+          <a href="https://www.northeastern.edu/">Northeastern University</a>. She received her Ph.D.
+          in Electrical and Computer Engineering from the{' '}
+          <a href="https://www.ufl.edu/">University of Florida</a> in 2019, advised by{' '}
+          <a href="https://danielaseabraoliveira.com/">Prof. Daniela Oliveira</a>.
         </p>
+        <p>
+          Ruimin Sun's research focuses on <strong>system and AI security</strong>, with a particular emphasis
+          on securing on-device AI. Her work investigates security and privacy threats to AI models,
+          data, and execution on edge and embedded devices and develops practical defenses against
+          these threats. She also works on cyber-physical and domain-specific security, including
+          the security of embedded and industrial control systems, with emerging interests in
+          healthcare and advanced manufacturing. Ruimin was the founding chair for the Workshop on Re-design Industrial Control Systems with Security (<a href="https://ricssworkshop.github.io/">RICSS</a>).
+          Her research has been supported by the{' '}
+          <span className="personal-intro__funder">National Science Foundation</span> and the{' '}
+          <span className="personal-intro__funder">U.S. Department of Homeland Security</span>.
+        </p>
+        <nav className="personal-section-nav" aria-label="Personal page sections">
+          <a href="#research">Research</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#service">Service</a>
+        </nav>
       </div>
     </Container>
   </section>

@@ -17,6 +17,10 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run validate-content`
+
+Checks content IDs, calendar dates, reverse-chronological news ordering, and cross-references between people, publications, news, and research directions. This check also runs automatically before a production build.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />

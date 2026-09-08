@@ -4,13 +4,22 @@ import './contentComponents.css';
 const ResearchDirectionCard = ({ direction, publications = [], publicationLimit = 2 }) => {
   if (!direction) return null;
 
-  const publicationsFor = (subdirectionId) => publications
-    .filter(({ subdirectionIds = [] }) => subdirectionIds.includes(subdirectionId))
-    .sort((first, second) => second.year - first.year)
-    .slice(0, publicationLimit);
+  const publicationsById = new Map(publications.map((publication) => [publication.id, publication]));
+  const publicationsFor = (subdirection) => {
+    if (subdirection.publicationIds) {
+      return subdirection.publicationIds
+        .map((publicationId) => publicationsById.get(publicationId))
+        .filter(Boolean);
+    }
+
+    return publications
+      .filter(({ subdirectionIds = [] }) => subdirectionIds.includes(subdirection.id))
+      .sort((first, second) => second.year - first.year)
+      .slice(0, publicationLimit);
+  };
 
   const compactVenue = ({ venueShort, year }) => (
-    `${venueShort.replace(/^IEEE /, '')}'${String(year).slice(-2)}`
+    `${venueShort} ’${String(year).slice(-2)}`
   );
 
   return (
@@ -20,8 +29,11 @@ const ResearchDirectionCard = ({ direction, publications = [], publicationLimit 
       </header>
 
       <ul className="research-direction-card__subdirections">
-        {direction.subdirections.map((subdirection) => {
-          const relatedPublications = publicationsFor(subdirection.id);
+        {direction.subdirections.filter(({ hidden }) => !hidden).map((subdirection) => {
+          const relatedPublications = publicationsFor(subdirection);
+          const showPublicationVenues = subdirection.showPublicationVenues
+            ?? direction.showPublicationVenues
+            ?? true;
 
           return (
             <li className="research-subdirection" id={subdirection.id} key={subdirection.id}>
@@ -31,10 +43,16 @@ const ResearchDirectionCard = ({ direction, publications = [], publicationLimit 
                   :{' '}
                   {relatedPublications.map((publication, index) => {
                     const primaryLink = publication.links && publication.links[0];
+                    const showPublicationVenue = showPublicationVenues
+                      && !subdirection.hideVenuePublicationIds?.includes(publication.id);
                     const paper = (
                       <>
-                        {publication.shortTitle || publication.title}{' '}
-                        <span className="research-publication__meta">({compactVenue(publication)})</span>
+                        <span className="research-publication__title">
+                          {publication.shortTitle || publication.title}
+                        </span>
+                        {showPublicationVenue && (
+                          <> <span className="research-publication__meta">({compactVenue(publication)})</span></>
+                        )}
                       </>
                     );
 

@@ -4,10 +4,16 @@ import '../AppVanillaHtml.css';
 
 const courses = [
   {
+    course: 'AI Security Fundamentals (CAI 5747)',
+    institution: 'Florida International University',
+    role: 'Lecturer',
+    terms: "spring'27",
+  },
+  {
     course: 'Principles of Cybersecurity (CIS 5370)',
     institution: 'Florida International University',
     role: 'Lecturer',
-    terms: "fall'22, spring'23, fall'23, fall'24, spring'25",
+    terms: "fall'22, spring'23, fall'23, fall'24, spring'25, fall'25, spring'26, fall'26",
   },
   {
     course: 'Systems Security (CY 3740)',

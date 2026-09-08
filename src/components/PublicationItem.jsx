@@ -31,33 +31,28 @@ const PublicationItem = ({ publication, compact = false }) => {
 
   return (
     <article className={className} id={publication.id}>
-      <h3 className="publication-item__title">{publication.title}</h3>
-      <div className="publication-item__authors">{renderAuthors(publication)}</div>
-      <div className="publication-item__venue"><em>{publication.venue}</em></div>
-
-      {!compact && publication.summary && <p>{publication.summary}</p>}
-
-      {publication.awards && publication.awards.length > 0 && (
-        <div className="publication-item__awards">
-          {publication.awards.map((award) => (
-            award.url ? (
-              <a className="content-label content-label--award" href={award.url} key={award.title}>
-                {award.title}
-              </a>
+      <h3 className="publication-item__title">
+        {publication.title}
+        {publication.awards && publication.awards.map((award) => (
+          <React.Fragment key={award.title}>
+            {' '}
+            {award.url ? (
+              <a className="publication-item__award" href={award.url}>{award.title}</a>
             ) : (
-              <span className="content-label content-label--award" key={award.title}>{award.title}</span>
-            )
-          ))}
-        </div>
-      )}
-
-      {publication.links && publication.links.length > 0 && (
-        <nav className="content-links" aria-label={`${publication.title} resources`}>
-          {publication.links.map((link) => (
-            <a href={link.url} key={`${publication.id}-${link.type}-${link.label}`}>[{link.label}]</a>
-          ))}
-        </nav>
-      )}
+              <span className="publication-item__award">{award.title}</span>
+            )}
+          </React.Fragment>
+        ))}
+      </h3>
+      <div className="publication-item__authors">{renderAuthors(publication)}</div>
+      <div className="publication-item__venue">
+        <em>{publication.venue}</em>
+        {publication.links && publication.links.map((link) => (
+          <React.Fragment key={`${publication.id}-${link.type}-${link.label}`}>
+            {' '}<a href={link.url}>[{link.label}]</a>
+          </React.Fragment>
+        ))}
+      </div>
     </article>
   );
 };

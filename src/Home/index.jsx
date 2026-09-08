@@ -8,6 +8,7 @@ import { researchDirections } from '../content/researchDirections';
 import './Home.css';
 
 const prioritizedDirections = [...researchDirections]
+  .filter((direction) => !direction.hidden)
   .sort((first, second) => first.displayOrder - second.displayOrder);
 
 const Home = () => (

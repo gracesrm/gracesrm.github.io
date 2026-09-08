@@ -5,6 +5,7 @@
   --font-size-page-title: clamp(1.1rem, 2vw, 1.45rem);
   --space-page-top: 3rem;
   --space-section: 2rem;
+  --space-heading-content: 0.8rem;
   --size-social-icon: 1.2rem;
   --content-width: 1140px;
   --content-wide: var(--content-width);

@@ -23,14 +23,11 @@ const Contribution = ({ contribution }) => {
 
   return (
     <li className="person-card__contribution">
-      <span className={`content-label content-label--${contribution.type}`}>
-        {contribution.type}
-      </span>
-      <span>
+      <strong className="person-card__contribution-title">
         {primaryLink ? (
           <a href={primaryLink.url}>{contribution.title}</a>
         ) : contribution.title}
-      </span>
+      </strong>
       {contribution.date && <time dateTime={contribution.date}> ({contribution.date})</time>}
       {contribution.description && <div>{contribution.description}</div>}
       {otherLinks.map((link) => (
@@ -42,7 +39,13 @@ const Contribution = ({ contribution }) => {
   );
 };
 
-const PersonCard = ({ person, compact = false, showContributions = true }) => {
+const PersonCard = ({
+  person,
+  compact = false,
+  showContributions = true,
+  showHighlight = true,
+  showLinks = true,
+}) => {
   if (!person) return null;
 
   const homepageLink = (person.links || []).find(({ label, type }) => (
@@ -77,11 +80,10 @@ const PersonCard = ({ person, compact = false, showContributions = true }) => {
         </div>
       </div>
 
-      {person.highlight && <p className="person-card__highlight">{person.highlight}</p>}
+      {showHighlight && person.highlight && <p className="person-card__highlight">{person.highlight}</p>}
 
       {showContributions && person.contributions && person.contributions.length > 0 && (
         <section className="person-card__contributions" aria-label={`${person.name} highlights`}>
-          <h4>Highlights</h4>
           <ul>
             {person.contributions.slice(0, 2).map((contribution) => (
               <Contribution contribution={contribution} key={contribution.id} />
@@ -90,7 +92,7 @@ const PersonCard = ({ person, compact = false, showContributions = true }) => {
         </section>
       )}
 
-      {person.links && person.links.length > 0 && (
+      {showLinks && person.links && person.links.length > 0 && (
         <nav className="content-links" aria-label={`${person.name} links`}>
           {person.links.map((link) => (
             <a href={link.url} key={`${person.id}-${link.label}`}>

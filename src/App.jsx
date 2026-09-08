@@ -5,8 +5,8 @@ import Home from './Home';
 import Lab from './Lab';
 import Awards from './Lab/Awards';
 import Publication from './Lab/Publication';
+import Resources from './Lab/Resources';
 import Sponsor from './Lab/Sponsor';
-import Talks from './Lab/Talks';
 import Team from './Lab/Team';
 import { site } from './content/site';
 import {
@@ -33,13 +33,14 @@ function App() {
             <Route exact path="/publication" component={Publication}></Route>
             <Route exact path="/sponsor" component={Sponsor}></Route>
             <Route exact path="/awards" component={Awards}></Route>
-            <Route exact path="/talks" component={Talks}></Route>
+            <Route exact path="/resources" component={Resources}></Route>
             <Redirect exact from="/" to="/home" />
             <Redirect exact from="/research" to="/home#research" />
             <Redirect exact from="/teaching" to="/home#teaching" />
             <Redirect exact from="/service" to="/home#service" />
             <Redirect exact from="/students" to="/team" />
             <Redirect exact from="/publications" to="/publication" />
+            <Redirect exact from="/talks" to="/resources" />
             <Redirect to="/home" />
           </Switch>
         </Body>

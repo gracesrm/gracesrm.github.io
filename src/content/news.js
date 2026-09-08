@@ -13,6 +13,7 @@ import sokPreprint from '../Downloads/paper/sok_preprint.pdf';
  * @property {string} dateLabel - Original human-readable date label
  * @property {'paper'|'award'|'people'|'grant'|'release'|'talk'|'service'|'event'|'other'} type
  * @property {string} title
+ * @property {string[]} [emphasisLabels] - Exact title substrings rendered in italics
  * @property {string} [summary]
  * @property {string[]} peopleIds - IDs from people.js
  * @property {string[]} publicationIds - IDs from publications.js
@@ -24,6 +25,112 @@ import sokPreprint from '../Downloads/paper/sok_preprint.pdf';
 
 /** @type {NewsItem[]} */
 export const news = [
+  {
+    id: '2026-08-samin-vehiclesec-travel-grant',
+    date: '2026-08-01',
+    dateLabel: 'Aug. 2026',
+    type: 'award',
+    title: 'Samin Y Chowdhury won the Travel Grant to attend USENIX Symposium on Vehicle Security and Privacy (VehicleSec 26).',
+    emphasisLabels: ['USENIX Symposium on Vehicle Security and Privacy (VehicleSec 26)'],
+    peopleIds: ['samin-yasar-chowdhury'],
+    publicationIds: ['snfuzz-mqtt-sn-2026'],
+    subdirectionIds: ['embedded-software-testing', 'automotive-security'],
+    links: [],
+  },
+  {
+    id: '2026-08-black-box-medical-llms-pst-presentation',
+    date: '2026-08-01',
+    dateLabel: 'Aug. 2026',
+    type: 'paper',
+    title: 'Mohammed presented our paper “Black-Box Behavioral Distillation Breaks Safety Alignment in Medical LLMs” at the 23rd Annual International Conference on Privacy, Security & Trust.',
+    peopleIds: ['mohammed-al-duniawi', 'ruimin-sun'],
+    publicationIds: ['black-box-behavioral-distillation-medical-llms-2025'],
+    subdirectionIds: ['privacy-preserving-ai', 'medical-system-security'],
+    links: [
+      {
+        label: 'Black-Box Behavioral Distillation Breaks Safety Alignment in Medical LLMs',
+        url: 'https://arxiv.org/pdf/2512.09403',
+      },
+    ],
+  },
+  {
+    id: '2026-08-snfuzz-vehiclesec-presentation',
+    date: '2026-08-01',
+    dateLabel: 'Aug. 2026',
+    type: 'paper',
+    title: 'Samin presented our paper “WIP: SNFuzz: Gateway-Centric State-Oriented Fuzzing for MQTT-SN.” at the USENIX Symposium on Vehicle Security and Privacy (VehicleSec 26).',
+    emphasisLabels: ['USENIX Symposium on Vehicle Security and Privacy (VehicleSec 26)'],
+    peopleIds: ['samin-yasar-chowdhury', 'ruimin-sun'],
+    publicationIds: ['snfuzz-mqtt-sn-2026'],
+    subdirectionIds: ['embedded-software-testing', 'iot-edge-security'],
+    links: [
+      {
+        label: 'WIP: SNFuzz: Gateway-Centric State-Oriented Fuzzing for MQTT-SN.',
+        url: 'https://www.usenix.org/system/files/vehiclesec26-de-la-pena.pdf',
+      },
+    ],
+  },
+  {
+    id: '2026-07-mohammed-provost-completion-fellowship',
+    date: '2026-07-01',
+    dateLabel: 'July. 2026',
+    type: 'award',
+    title: 'Mohammed Al Duniawi won the Provost Degree Completion Tuition Fellowship.',
+    peopleIds: ['mohammed-al-duniawi'],
+    publicationIds: [],
+    subdirectionIds: [],
+    links: [],
+  },
+  {
+    id: '2026-07-nsf-reu-asset-funded',
+    date: '2026-07-01',
+    dateLabel: 'July. 2026',
+    type: 'grant',
+    title: 'Our project “NSF REU SITE: ASSET: Advanced Secured Sensor Enabling Technologies” is funded by NSF CCF (PI: Niki Pissinou, $464,999.00, 10/1/2026-9/30/2029).',
+    peopleIds: ['ruimin-sun'],
+    publicationIds: [],
+    subdirectionIds: ['iot-edge-security'],
+    links: [],
+  },
+  {
+    id: '2026-04-ai-security-fundamentals-approved',
+    date: '2026-04-01',
+    dateLabel: 'April 2026',
+    type: 'other',
+    title: 'The graduate-level course I proposed “AI Security Fundamentals” has been approved and will be lectured at FIU in Spring’27.',
+    peopleIds: ['ruimin-sun'],
+    publicationIds: [],
+    subdirectionIds: [],
+    links: [],
+  },
+  {
+    id: '2025-11-mqtt-fuzzing-survey-ricss-presentation',
+    date: '2025-11-01',
+    dateLabel: 'Nov. 2025',
+    type: 'paper',
+    title: 'Samin presented our paper “A Survey for MQTT Fuzzing.” at the Proceedings of the 2025 Workshop on Re-design Industrial Control Systems with Security (RICSS \'25), co-located with CCS’25.',
+    emphasisLabels: ["Proceedings of the 2025 Workshop on Re-design Industrial Control Systems with Security (RICSS '25), co-located with CCS’25"],
+    peopleIds: ['samin-yasar-chowdhury', 'ruimin-sun'],
+    publicationIds: ['mqtt-fuzzing-survey-2025'],
+    subdirectionIds: ['industrial-control-security', 'iot-edge-security'],
+    links: [
+      {
+        label: 'A Survey for MQTT Fuzzing.',
+        url: 'https://doi.org/10.1145/3733823.3764515',
+      },
+    ],
+  },
+  {
+    id: '2025-11-ccs-young-scholar-award',
+    date: '2025-11-01',
+    dateLabel: 'Nov. 2025',
+    type: 'award',
+    title: 'Ruimin Sun was awarded with CCS Young Scholar by the ACM CCS 2025.',
+    peopleIds: ['ruimin-sun'],
+    publicationIds: [],
+    subdirectionIds: [],
+    links: [],
+  },
   {
     id: '2025-09-ricss-workshop-ccs',
     date: '2025-09-01',
@@ -53,6 +160,17 @@ export const news = [
     type: 'service',
     title: 'Ruimin will serve on the ACSAC 2025 program committee.',
     peopleIds: ['ruimin-sun'],
+    publicationIds: [],
+    subdirectionIds: [],
+    links: [],
+  },
+  {
+    id: '2025-04-lousindy-dod-csa-fellowship',
+    date: '2025-04-01',
+    dateLabel: 'April 2025',
+    type: 'award',
+    title: 'Lousindy Mitton won the DoD CSA Fellowship.',
+    peopleIds: ['lousindy-mitton'],
     publicationIds: [],
     subdirectionIds: [],
     links: [],
@@ -99,6 +217,18 @@ export const news = [
     publicationIds: [],
     subdirectionIds: ['industrial-control-security'],
     links: [{ label: 'RICSS workshop', url: 'https://ricssworkshop.github.io/' }],
+  },
+  {
+    id: '2024-08-tushar-usenix-security-travel-grant',
+    date: '2024-08-01',
+    dateLabel: 'Aug. 2024',
+    type: 'award',
+    title: 'Tushar Nayan won the Travel Grant to present his work at USENIX Security.',
+    emphasisLabels: ['USENIX Security'],
+    peopleIds: ['tushar-nayan'],
+    publicationIds: ['on-device-ml-model-extraction-sok-2024'],
+    subdirectionIds: ['on-device-ml-security'],
+    links: [],
   },
   {
     id: '2024-06-nsf-cici-award',
