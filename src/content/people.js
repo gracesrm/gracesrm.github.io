@@ -1,5 +1,6 @@
 import ruiminPhoto from '../Assets/profile_s.jpg';
 import mohammedPhoto from '../Assets/mohammed-al-duniawi.jpg';
+import saminPhoto from '../Assets/samin-yasar-chowdhury.jpg';
 import tusharPhoto from '../Assets/tushar-nayan.jpg';
 
 /**
@@ -159,7 +160,14 @@ export const people = [
         ],
       },
     ],
-    links: [],
+    photo: saminPhoto,
+    links: [
+      {
+        label: 'Homepage',
+        url: 'https://csamin.github.io/',
+        type: 'homepage',
+      },
+    ],
     displayOrder: 4,
   },
   {

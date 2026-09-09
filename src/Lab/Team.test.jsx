@@ -20,6 +20,11 @@ test('shows current-member and alumni highlights', () => {
   const lousindyEntry = screen.getByText('Lousindy Mitton').closest('li');
 
   expect(tusharCard.querySelector('img')).toHaveAttribute('alt', 'Portrait of Tushar Nayan');
+  expect(saminCard.querySelector('img')).toHaveAttribute('alt', 'Portrait of Samin Yasar Chowdhury');
+  expect(screen.getByLabelText("Visit Samin Yasar Chowdhury's homepage")).toHaveAttribute(
+    'href',
+    'https://csamin.github.io/',
+  );
   expect(mohammedCard.querySelector('img')).toHaveAttribute('alt', 'Portrait of Mohammed Al Duniawi');
   expect(screen.getByLabelText("Visit Mohammed Al Duniawi's profile")).toHaveAttribute(
     'href',
