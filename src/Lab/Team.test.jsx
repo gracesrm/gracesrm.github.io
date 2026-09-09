@@ -20,6 +20,11 @@ test('shows current-member and alumni highlights', () => {
   const lousindyEntry = screen.getByText('Lousindy Mitton').closest('li');
 
   expect(tusharCard.querySelector('img')).toHaveAttribute('alt', 'Portrait of Tushar Nayan');
+  expect(mohammedCard.querySelector('img')).toHaveAttribute('alt', 'Portrait of Mohammed Al Duniawi');
+  expect(screen.getByLabelText("Visit Mohammed Al Duniawi's profile")).toHaveAttribute(
+    'href',
+    'https://www.linkedin.com/in/mohammed-alduniawi/',
+  );
   expect(screen.getByLabelText("Visit Tushar Nayan's homepage")).toHaveAttribute(
     'href',
     'https://tusharnayan.netlify.app/',

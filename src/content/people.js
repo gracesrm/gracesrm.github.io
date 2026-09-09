@@ -1,4 +1,5 @@
 import ruiminPhoto from '../Assets/profile_s.jpg';
+import mohammedPhoto from '../Assets/mohammed-al-duniawi.jpg';
 import tusharPhoto from '../Assets/tushar-nayan.jpg';
 
 /**
@@ -185,7 +186,14 @@ export const people = [
         date: '2026-07',
       },
     ],
-    links: [],
+    photo: mohammedPhoto,
+    links: [
+      {
+        label: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/mohammed-alduniawi/',
+        type: 'linkedin',
+      },
+    ],
     displayOrder: 5,
   },
   {

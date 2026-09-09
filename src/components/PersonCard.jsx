@@ -48,20 +48,21 @@ const PersonCard = ({
 }) => {
   if (!person) return null;
 
-  const homepageLink = (person.links || []).find(({ label, type }) => (
+  const profileLink = (person.links || []).find(({ label, type }) => (
     type === 'homepage' || label.toLowerCase() === 'homepage'
-  ));
+  )) || (person.links || []).find(({ type }) => type === 'linkedin');
+  const profileDestination = profileLink && profileLink.type === 'linkedin' ? 'profile' : 'homepage';
   const className = compact ? 'content-card person-card person-card--compact' : 'content-card person-card';
 
   return (
-    <article className={`${className}${homepageLink ? ' person-card--linked' : ''}`}>
-      {homepageLink && (
+    <article className={`${className}${profileLink ? ' person-card--linked' : ''}`}>
+      {profileLink && (
         <a
           className="person-card__overlay-link"
-          href={homepageLink.url}
-          aria-label={`Visit ${person.name}'s homepage`}
+          href={profileLink.url}
+          aria-label={`Visit ${person.name}'s ${profileDestination}`}
         >
-          <span className="sr-only">Visit {person.name}'s homepage</span>
+          <span className="sr-only">Visit {person.name}'s {profileDestination}</span>
         </a>
       )}
       <div className="person-card__identity">
