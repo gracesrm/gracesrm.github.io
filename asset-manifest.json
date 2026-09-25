@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.593151dd.css",
-    "main.js": "/static/js/main.d7244f6d.js",
+    "main.js": "/static/js/main.dece3754.js",
     "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.a17ab457094c5558ad3a.pdf",
     "static/media/sok_preprint.pdf": "/static/media/sok_preprint.a72f9b78a40d6c66420f.pdf",
     "static/media/profile_s.jpg": "/static/media/profile_s.24ea899749395df6c108.jpg",
@@ -10,10 +10,10 @@
     "static/media/samin-yasar-chowdhury.jpg": "/static/media/samin-yasar-chowdhury.3312476e6d25eaec6964.jpg",
     "index.html": "/index.html",
     "main.593151dd.css.map": "/static/css/main.593151dd.css.map",
-    "main.d7244f6d.js.map": "/static/js/main.d7244f6d.js.map"
+    "main.dece3754.js.map": "/static/js/main.dece3754.js.map"
   },
   "entrypoints": [
     "static/css/main.593151dd.css",
-    "static/js/main.d7244f6d.js"
+    "static/js/main.dece3754.js"
   ]
 }
