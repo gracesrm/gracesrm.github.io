@@ -26,6 +26,23 @@ import sokPreprint from '../Downloads/paper/sok_preprint.pdf';
 /** @type {NewsItem[]} */
 export const news = [
   {
+    id: '2026-09-pro-neurips-2026-accepted',
+    date: '2026-09-24',
+    dateLabel: 'Sept. 2026',
+    type: 'paper',
+    title: 'Our paper "PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs" has been accepted by NeurIPS 2026 Main Track as poster.',
+    emphasisLabels: ['NeurIPS 2026'],
+    peopleIds: ['ruimin-sun'],
+    publicationIds: ['pro-open-source-llm-watermark-2025'],
+    subdirectionIds: ['privacy-preserving-ai'],
+    links: [
+      {
+        label: 'PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs',
+        url: 'https://openreview.net/forum?id=SP0ojrw7bn#discussion'
+      }
+    ],
+  },
+  {
     id: '2026-08-samin-vehiclesec-travel-grant',
     date: '2026-08-01',
     dateLabel: 'Aug. 2026',

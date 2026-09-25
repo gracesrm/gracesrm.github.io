@@ -50,7 +50,7 @@ export const researchDirections = [
         title: 'Privacy-Preserving Edge AI',
         summary: 'Protecting sensitive training data, inputs, and model assets.',
         keywords: ['privacy', 'federated learning', 'multimodal AI'],
-        publicationIds: ['privacy-preserving-multimodality-fl-2023'],
+        publicationIds: ['privacy-preserving-multimodality-fl-2023', 'pro-open-source-llm-watermark-2025'],
       },
     ],
     displayOrder: 1,
