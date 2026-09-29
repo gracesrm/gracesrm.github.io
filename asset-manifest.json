@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.593151dd.css",
-    "main.js": "/static/js/main.dece3754.js",
+    "main.js": "/static/js/main.f13ffeb4.js",
     "static/media/propedeutica_2018.pdf": "/static/media/propedeutica_2018.a17ab457094c5558ad3a.pdf",
     "static/media/sok_preprint.pdf": "/static/media/sok_preprint.a72f9b78a40d6c66420f.pdf",
     "static/media/profile_s.jpg": "/static/media/profile_s.24ea899749395df6c108.jpg",
     "static/media/tushar-nayan.jpg": "/static/media/tushar-nayan.6f778cc1503a2a7937c3.jpg",
+    "static/media/nsf-logo.png": "/static/media/nsf-logo.1b91d98c730c21b574d6.png",
     "static/media/mohammed-al-duniawi.jpg": "/static/media/mohammed-al-duniawi.8751ad442bbaf5745b8e.jpg",
     "static/media/samin-yasar-chowdhury.jpg": "/static/media/samin-yasar-chowdhury.3312476e6d25eaec6964.jpg",
     "index.html": "/index.html",
     "main.593151dd.css.map": "/static/css/main.593151dd.css.map",
-    "main.dece3754.js.map": "/static/js/main.dece3754.js.map"
+    "main.f13ffeb4.js.map": "/static/js/main.f13ffeb4.js.map"
   },
   "entrypoints": [
     "static/css/main.593151dd.css",
-    "static/js/main.dece3754.js"
+    "static/js/main.f13ffeb4.js"
   ]
 }
