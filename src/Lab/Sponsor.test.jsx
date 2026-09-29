@@ -8,8 +8,10 @@ test('lists sponsored projects newest first with expanded investigator roles', (
 
   expect(container.querySelector('main')).toHaveClass('sponsor-page');
   const sponsorLogos = container.querySelectorAll('.sponsor-logo');
+  const nsfLogo = screen.getByAltText('National Science Foundation (NSF) logo');
   const illinoisLogo = screen.getByAltText('University of Illinois Urbana-Champaign logo');
 
+  expect(nsfLogo).toHaveAttribute('src', 'nsf-logo.png');
   expect(sponsorLogos[2]).toBe(illinoisLogo);
   expect(illinoisLogo).toHaveClass('sponsor-logo--illinois');
   expect(illinoisLogo).toHaveAttribute(

@@ -1,13 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import PageHeader from './PageHeader';
+import nsfLogo from '../Assets/nsf-logo.png';
 import '../Home/Home.css';
 
 const sponsors = [
   {
     shortName: 'NSF',
     name: 'National Science Foundation (NSF)',
-    logo: 'https://www.nsf.gov/themes/custom/nsf_theme/logo-200x200.png',
+    logo: nsfLogo,
   },
   {
     shortName: 'DHS',
